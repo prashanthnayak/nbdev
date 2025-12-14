@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev"
+  site-url: "https://prashanth.github.io/nbdev"
+  description: "this is an random experiment"
+  repo-branch: master
+  repo-url: "https://github.com/prashanth/nbdev"
