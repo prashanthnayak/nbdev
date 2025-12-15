@@ -90,3 +90,48 @@ gh run view 20200424728 --log
 gh api repos/prashanthnayak/nbdev/branches
 gh api -X PUT repos/prashanthnayak/nbdev/pages -f build_type=workflow
 gh api repos/prashanthnayak/nbdev/pages
+pwd
+ls
+cd nbs
+ls
+vi _quarto.yml 
+git push
+git add .
+git commit -m "theme"
+git push
+gh run list --limit 1
+gh run list --limit 3
+git log --oneline -3
+git push
+gh run list --limit 1
+clear
+gh api repos/prashanthnayak/nbdev/contents/nbs/_quarto.yml?ref=gh-pages
+gh api repos/prashanthnayak/nbdev/contents/nbs/_quarto.yml?ref=master
+gh api repos/prashanthnayak/nbdev/contents/site_libs/bootstrap?ref=gh-pages | grep -o '"name":"[^"]*\.css"'
+git push
+gh run list --limit 1
+gh run view 20215584994 --log-failed
+git push
+gh run list --limit 1
+gh run list --limit 2
+gh api repos/prashanthnayak/nbdev/pages/builds/latest
+gh api repos/prashanthnayak/nbdev/pages
+gh api -X PUT repos/prashanthnayak/nbdev/pages -F source[branch]=gh-pages -F source[path]=/
+gh api -X POST repos/prashanthnayak/nbdev/pages/builds
+gh api repos/prashanthnayak/nbdev/git/trees/gh-pages?recursive=1 | grep bootstrap.*css
+5
+clear
+git commit --allow-empty -m "Trigger Pages rebuild"
+git push
+nbdev_prepare
+cd ..
+nbdev_prepare
+nbdev_export
+nbdev_prepare
+git add -A
+git commit -m "Fix package structure"
+git push
+gh run list --limit 1
+gh run list --limit 2
+clear
+nbdev_preview
