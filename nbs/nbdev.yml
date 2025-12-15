@@ -2,8 +2,8 @@ project:
   output-dir: _docs
 
 website:
-  title: "nbdev"
-  site-url: "https://prashanth.github.io/nbdev"
+  title: "myblog"
+  site-url: "https://prashanthnayak.github.io/myblog"
   description: "this is an random experiment"
   repo-branch: master
-  repo-url: "https://github.com/prashanth/nbdev"
+  repo-url: "https://github.com/prashanthnayak/myblog"
