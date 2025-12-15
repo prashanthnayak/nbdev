@@ -3,7 +3,7 @@ project:
 
 format:
   html:
-    theme: solar
+    theme: journal
     css: styles.css
     toc: true
     keep-md: true
