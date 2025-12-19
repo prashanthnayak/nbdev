@@ -1,0 +1,2 @@
+*.ipynb merge=nbdev-merge
+doc.pdf filter=lfs diff=lfs merge=lfs -text
