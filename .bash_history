@@ -135,3 +135,35 @@ gh run list --limit 1
 gh run list --limit 2
 clear
 nbdev_preview
+pwd
+ls
+nbdev_install_hooks
+nbdev_clean
+nbdev_export
+git add .
+git commit -m "Clean notebooks and sync library"
+git push
+gh api repos/prashanthnayak/nbdev/branches/gh-pages --jq '.commit.sha[0:7]'
+gh api repos/prashanthnayak/nbdev/git/trees/28936f7?recursive=1 | grep "bootstrap.*\.css" | grep -v icons
+git push
+gh run list --limit 1
+ghh api repos/prashanthnayak/nbdev/pages/builds/latest
+gh api repos/prashanthnayak/nbdev/pages/builds/latest
+gh api -X PUT repos/prashanthnayak/nbdev/pages -f build_type=legacy -f source[branch]=gh-pages -f source[path]=/
+gh api repos/prashanthnayak/nbdev/pages/builds/latest --jq '.created_at'
+gh api -X POST repos/prashanthnayak/nbdev/pages/builds
+gh api repos/prashanthnayak/nbdev/pages/builds/latest --jq '.created_at'
+pwd
+ls
+cd myblog
+ls
+cd ..
+cd nbs
+ls
+vi _quarto.yml 
+git push
+vi _quarto.yml 
+git push
+vi _quarto.yml 
+git push
+vi _quarto.yml 

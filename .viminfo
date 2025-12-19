@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1765752612,,"wq"
+|2,0,1765764155,,"wq"
 
 # Search String History (newest to oldest):
 
@@ -25,20 +25,54 @@
 # Registers:
 
 # File marks:
-'0  6  16  ~/nbs/_quarto.yml
-|4,48,6,16,1765752612,"~/nbs/_quarto.yml"
+'0  6  17  ~/nbs/_quarto.yml
+|4,48,6,17,1765784707,"~/nbs/_quarto.yml"
+'1  6  17  ~/nbs/_quarto.yml
+|4,49,6,17,1765764155,"~/nbs/_quarto.yml"
+'2  6  15  ~/nbs/_quarto.yml
+|4,50,6,15,1765763987,"~/nbs/_quarto.yml"
+'3  6  15  ~/nbs/_quarto.yml
+|4,51,6,15,1765763987,"~/nbs/_quarto.yml"
+'4  6  15  ~/nbs/_quarto.yml
+|4,52,6,15,1765763693,"~/nbs/_quarto.yml"
+'5  6  15  ~/nbs/_quarto.yml
+|4,53,6,15,1765763693,"~/nbs/_quarto.yml"
+'6  6  15  ~/nbs/_quarto.yml
+|4,54,6,15,1765763693,"~/nbs/_quarto.yml"
+'7  6  15  ~/nbs/_quarto.yml
+|4,55,6,15,1765763693,"~/nbs/_quarto.yml"
+'8  6  16  ~/nbs/_quarto.yml
+|4,56,6,16,1765752612,"~/nbs/_quarto.yml"
+'9  6  16  ~/nbs/_quarto.yml
+|4,57,6,16,1765752612,"~/nbs/_quarto.yml"
 
 # Jumplist (newest first):
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763693,"~/nbs/_quarto.yml"
 -'  6  16  ~/nbs/_quarto.yml
 |4,39,6,16,1765752612,"~/nbs/_quarto.yml"
+-'  1  0  ~/nbs/_quarto.yml
+|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
+-'  1  0  ~/nbs/_quarto.yml
+|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
+-'  1  0  ~/nbs/_quarto.yml
+|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
+-'  1  0  ~/nbs/_quarto.yml
+|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
 -'  1  0  ~/nbs/_quarto.yml
 |4,39,1,0,1765752590,"~/nbs/_quarto.yml"
 
 # History of marks within files (newest to oldest):
 
 > ~/nbs/_quarto.yml
-	*	1765752612	0
-	"	6	16
-	^	6	17
-	.	6	16
-	+	6	16
+	*	1765764353	0
+	"	6	17
+	^	6	18
+	.	6	17
+	+	6	17
