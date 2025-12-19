@@ -12,7 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1765764155,,"wq"
+|2,0,1766145081,,"wq"
+:q!
+|2,0,1766144752,,"q!"
+:q
+|2,0,1766144638,,"q"
 
 # Search String History (newest to oldest):
 
@@ -23,52 +27,248 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	
+|3,1,1,1,1,0,1766144774,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1766144771,""
 
 # File marks:
-'0  6  17  ~/nbs/_quarto.yml
-|4,48,6,17,1765784707,"~/nbs/_quarto.yml"
-'1  6  17  ~/nbs/_quarto.yml
-|4,49,6,17,1765764155,"~/nbs/_quarto.yml"
-'2  6  15  ~/nbs/_quarto.yml
-|4,50,6,15,1765763987,"~/nbs/_quarto.yml"
-'3  6  15  ~/nbs/_quarto.yml
-|4,51,6,15,1765763987,"~/nbs/_quarto.yml"
-'4  6  15  ~/nbs/_quarto.yml
-|4,52,6,15,1765763693,"~/nbs/_quarto.yml"
-'5  6  15  ~/nbs/_quarto.yml
-|4,53,6,15,1765763693,"~/nbs/_quarto.yml"
-'6  6  15  ~/nbs/_quarto.yml
-|4,54,6,15,1765763693,"~/nbs/_quarto.yml"
-'7  6  15  ~/nbs/_quarto.yml
-|4,55,6,15,1765763693,"~/nbs/_quarto.yml"
-'8  6  16  ~/nbs/_quarto.yml
-|4,56,6,16,1765752612,"~/nbs/_quarto.yml"
-'9  6  16  ~/nbs/_quarto.yml
-|4,57,6,16,1765752612,"~/nbs/_quarto.yml"
+'0  42  41  ~/settings.ini
+|4,48,42,41,1766145081,"~/settings.ini"
+'1  43  0  ~/settings.ini
+|4,49,43,0,1766144778,"~/settings.ini"
+'2  43  0  ~/settings.ini
+|4,50,43,0,1766144778,"~/settings.ini"
+'3  109  90  ~/settings.ini
+|4,51,109,90,1766144752,"~/settings.ini"
+'4  108  90  ~/settings.ini
+|4,52,108,90,1766144752,"~/settings.ini"
+'5  109  90  ~/settings.ini
+|4,53,109,90,1766144752,"~/settings.ini"
+'6  108  90  ~/settings.ini
+|4,54,108,90,1766144752,"~/settings.ini"
+'7  176  91  ~/settings.ini
+|4,55,176,91,1766144736,"~/settings.ini"
+'8  109  91  ~/settings.ini
+|4,56,109,91,1766144736,"~/settings.ini"
+'9  175  91  ~/settings.ini
+|4,57,175,91,1766144736,"~/settings.ini"
 
 # Jumplist (newest first):
+-'  42  41  ~/settings.ini
+|4,39,42,41,1766145081,"~/settings.ini"
+-'  43  0  ~/settings.ini
+|4,39,43,0,1766145071,"~/settings.ini"
+-'  43  0  ~/settings.ini
+|4,39,43,0,1766144778,"~/settings.ini"
+-'  1  0  ~/settings.ini
+|4,39,1,0,1766144759,"~/settings.ini"
+-'  1  0  ~/settings.ini
+|4,39,1,0,1766144759,"~/settings.ini"
+-'  109  90  ~/settings.ini
+|4,39,109,90,1766144752,"~/settings.ini"
+-'  108  90  ~/settings.ini
+|4,39,108,90,1766144752,"~/settings.ini"
+-'  109  90  ~/settings.ini
+|4,39,109,90,1766144752,"~/settings.ini"
+-'  108  90  ~/settings.ini
+|4,39,108,90,1766144752,"~/settings.ini"
+-'  1  0  ~/settings.ini
+|4,39,1,0,1766144738,"~/settings.ini"
+-'  176  91  ~/settings.ini
+|4,39,176,91,1766144736,"~/settings.ini"
+-'  175  91  ~/settings.ini
+|4,39,175,91,1766144736,"~/settings.ini"
+-'  176  91  ~/settings.ini
+|4,39,176,91,1766144736,"~/settings.ini"
+-'  175  91  ~/settings.ini
+|4,39,175,91,1766144736,"~/settings.ini"
+-'  108  91  ~/settings.ini
+|4,39,108,91,1766144736,"~/settings.ini"
+-'  177  31  ~/settings.ini
+|4,39,177,31,1766144722,"~/settings.ini"
+-'  110  31  ~/settings.ini
+|4,39,110,31,1766144722,"~/settings.ini"
+-'  177  31  ~/settings.ini
+|4,39,177,31,1766144722,"~/settings.ini"
+-'  110  31  ~/settings.ini
+|4,39,110,31,1766144722,"~/settings.ini"
+-'  176  31  ~/settings.ini
+|4,39,176,31,1766144722,"~/settings.ini"
+-'  109  31  ~/settings.ini
+|4,39,109,31,1766144722,"~/settings.ini"
+-'  109  31  ~/settings.ini
+|4,39,109,31,1766144638,"~/settings.ini"
+-'  42  31  ~/settings.ini
+|4,39,42,31,1766144638,"~/settings.ini"
+-'  1  0  ~/settings.ini
+|4,39,1,0,1766144608,"~/settings.ini"
+-'  1  0  ~/settings.ini
+|4,39,1,0,1766144608,"~/settings.ini"
 -'  6  17  ~/nbs/_quarto.yml
 |4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765784707,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
+-'  6  17  ~/nbs/_quarto.yml
+|4,39,6,17,1765764155,"~/nbs/_quarto.yml"
 -'  6  17  ~/nbs/_quarto.yml
 |4,39,6,17,1765764155,"~/nbs/_quarto.yml"
 -'  6  15  ~/nbs/_quarto.yml
 |4,39,6,15,1765763987,"~/nbs/_quarto.yml"
 -'  6  15  ~/nbs/_quarto.yml
-|4,39,6,15,1765763693,"~/nbs/_quarto.yml"
--'  6  16  ~/nbs/_quarto.yml
-|4,39,6,16,1765752612,"~/nbs/_quarto.yml"
--'  1  0  ~/nbs/_quarto.yml
-|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
--'  1  0  ~/nbs/_quarto.yml
-|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
--'  1  0  ~/nbs/_quarto.yml
-|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
--'  1  0  ~/nbs/_quarto.yml
-|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
--'  1  0  ~/nbs/_quarto.yml
-|4,39,1,0,1765752590,"~/nbs/_quarto.yml"
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
+-'  6  15  ~/nbs/_quarto.yml
+|4,39,6,15,1765763987,"~/nbs/_quarto.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/settings.ini
+	*	1766145080	0
+	"	42	41
+	^	42	42
+	.	42	41
+	+	176	91
+	+	109	90
+	+	43	0
+	+	42	41
 
 > ~/nbs/_quarto.yml
 	*	1765764353	0

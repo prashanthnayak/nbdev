@@ -167,3 +167,105 @@ git push
 vi _quarto.yml 
 git push
 vi _quarto.yml 
+pwd
+ls
+cd nbs
+ls
+cd ..
+nbdev_clean
+git add nbs/pjc1.ipynb 
+git commit -m "added pjc notes"
+git push
+git push rm --cached doc.pdf
+git push
+git rm --cached doc.pdf
+git push
+git commit -m "Remove large PDF from tracking"
+git push
+git status
+git status
+git status filter-branch --force --index-filter "git rm --cached --ignore-unmatch doc.pdf" --prune-empty --tag-name-filter cat -- --all
+git status filter-branch --force --index-filter "git rm --cached --ignore-unmatch doc.pdf" --prune-empty --tag-name-filter cat -- --all
+git add .
+git commit -m "random"
+git push
+git rm --cached doc.pdf 
+git rm --cached doc.pdf 
+git rm --cached ./doc.pdf 
+pwd
+ls
+git rm --cached /app/data/doc.pdf 
+cat .gitignore 
+git push
+git rm --cahced doc.pdf 
+git rm --cached doc.pdf
+git rm --cached doc.pdf 
+git rm --cached doc.pdf  
+git status --porcelain
+git ls-files | grep -i doc.pdf
+git push
+git filter-repo --path doc.pdf --invert-paths
+pip install git-filter-repo
+git filter-repo --path doc.pdf --invert-paths
+git filter-repo --path doc.pdf --invert-paths --force
+git push
+git add .
+git commit -m "cleared"
+git push
+gh#
+gh
+gh auth status
+git push origin master
+git remote -v
+git remote add origin https://github.com/prashanthnayak/nbdev.git
+git push
+git push --set-upstream origin master
+git push
+nbdev_export
+git commit "random1"
+git commit -m "random1"
+git push
+vi settings.ini 
+vi settings.ini 
+vi settings.ini 
+vi settings.ini 
+git add settings.ini 
+git commit -m "updated req"
+git push
+vi settings.ini 
+git add settings.ini 
+git commit -m "updated req1"
+git push
+git lfs track "doc.pdf"
+git push
+git add nbs/pjc1.ipynb 
+git commit -m "updated path"
+git push
+nnbdev_install_hooks
+nbdev_install_hooks
+nbdev_clean
+nbdev_expor
+nbdev_export
+git add nbs/pjc1.ipynb 
+git commit -m "cleanup"
+git push
+git add nbs/pjc1.ipynb 
+git commit -m "cleanup"
+git push
+git add nbs/pjc1.ipynb 
+git commit -m "cleanup"
+git push
+
+git commit -m "cleanup"
+git push
+nbdev_install_hooks
+nbdev_clean
+nbdev_export
+git add nbs/pjc1.ipynb 
+git commit -m "cleanup"
+git push
+clear
+git add nbs/pjc1.ipynb 
+git commit -m "cleanup"
+git push
+git pull origin master --no-rebase
