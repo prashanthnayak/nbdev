@@ -3,7 +3,7 @@ project:
 
 format:
   html:
-    theme: journal
+    theme: morph
     css: styles.css
     toc: true
     keep-md: true
