@@ -1,0 +1,492 @@
+[
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()",
+    "crumbs": [
+      "core"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdev"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdev",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdev in Development mode\n# make sure nbdev package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdev\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdev"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdev",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/prashanth/nbdev.git\nor from conda\n$ conda install -c prashanth nbdev\nor from pypi\n$ pip install nbdev\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdev"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "nbdev"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#core-philosophy",
+    "href": "1_pjc.html#core-philosophy",
+    "title": "PJC-1",
+    "section": "Core Philosophy",
+    "text": "Core Philosophy\n\nWithout spiritual discipline, learning Jyotish is difficult - understanding all charts (past, present, future) requires spiritual support\nParashara Jyotish is deeply connected to spirituality (Vishnu Purana, Rigveda)\nAppreciation of Guru is the first and most important step",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#key-practices-introduced",
+    "href": "1_pjc.html#key-practices-introduced",
+    "title": "PJC-1",
+    "section": "Key Practices Introduced",
+    "text": "Key Practices Introduced\n\n1. Guru Vandana\n\nPrayer/worship of the Guru (13 stanzas)\nDone first thing after morning bath\nCan be recited in one sitting as daily Guru prayer\nTraditionally sung at initiations in the parampara\n\n\n\n2. Pancha Devatas (Five Deities)\nThese represent the five tattvas and are worshipped in order:\n\nGanesha (Prithvi/Earth) - Must be worshipped first; sits in Muladhara chakra\nSurya (Agni/Fire) - Establishes energy levels\nVishnu (Akasha/Space) - Grants purity and connection\nDevi (Jala/Water) - Brings sustenance and empathy\nShiva (Vayu/Air) - Stops storms in life\n\nImportant: Any one of these five can lead to moksha if worshipped properly.",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#main-sadhanas-for-pjc-year-1",
+    "href": "1_pjc.html#main-sadhanas-for-pjc-year-1",
+    "title": "PJC-1",
+    "section": "Main Sadhanas for PJC Year 1",
+    "text": "Main Sadhanas for PJC Year 1\n\nGanesha Sadhana (Primary - 1 Year)\nSetup: - Draw Swastika mandala with red powder/paste - Place Ganesha picture at eye level (looking slightly up = sattvic) - Light ghee lamp (represents your home - keep it clean and personal) - Face East or Northeast (or strongest direction in Ashtakavarga of Sun)\nMantra Selection: - Use one of 12 Ganesha names based on YOUR LAGNA (from Sri Narada’s list) - Example: Sagittarius Lagna = “Om Soham balachandraya svaha”\nPractice: - Minimum: 108 times daily for 1 year - Rigorous: 15 malas daily (22 malas on Chaturthi) - Start on Chaturthi (Ganesha’s tithi) - Keep pen and paper near Ganesha during sadhana (use that pen for Jyotish notes later)\nPurpose: Strengthens Lagna, Jupiter, and Mercury → supports learning and Guru-Shishya connection\n\n\nNarasimha Sadhana (40 Days)\nPreparation: 1. Recite Shanti Mantra (from Rigveda) 2. Bija Pranayama (10 times): done with Pranayama - Inhale: “Om” - Hold: “Hreem” - Exhale: “Shraum” - Use both nostrils\nMain Mantra: check slide\n\n1,008 times daily for 40 days\nStart on Tuesday\nCan continue after 40 days\n\nPurpose: - Connected to Mangala (Mars) - gives strength (satva) - Removes the 6 Ripus (enemies): Moha, Kama, Lobha, Matsarya, Krodha, Mada - Purifies luminaries, nakshatras, and agni - Strengthens mind for learning negative karmas in Jyotish\n\n\nMuladhara Chakra Sadhana (Optional but Recommended)\n\nLight lamp with “Sri Ram Jai Ram Jai Jai Ram”\nDrink sweet water (jaggery/brown sugar, NOT white sugar) with “Om Ramachandraya Namaha”\nNarayana Kavacha procedure\nMantra: “Om Hreem Kshraum Hum Phat” - 108 times\n40 days\n\nPurpose: Cleanses first three chakras (Muladhara, Swadhisthana, Manipura) related to basic instincts and manifested universe",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#practical-guidelines",
+    "href": "1_pjc.html#practical-guidelines",
+    "title": "PJC-1",
+    "section": "Practical Guidelines",
+    "text": "Practical Guidelines\nMala/Rosary: - Rudraksha recommended for Ganesha - 54 beads preferred (108 also fine) - Don’t touch with index finger (tarjani) - Once dedicated to sadhana, don’t use for other purposes\nDiet: Vegetarian recommended but not mandatory for these sadhanas\nTiming: - Parampara Mantra (Hare Rama Krishna): First thing upon waking - Other sadhanas: After bath, in the morning\nDirection: East or Northeast best (or use Ashtakavarga of Sun for personal direction)\nWould you like me to clarify any specific aspect of these practices?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-3",
+    "href": "1_pjc.html#lesson-3",
+    "title": "PJC-1",
+    "section": "Lesson 3",
+    "text": "Lesson 3\n\n\n\n\n\n\nCautionSummary of Lesson 3 Transcript\n\n\n\n\n\n\nOpening & Structure\n\nStarted with Guru Mantra (Om Guruve Namaha) repeated 12 times\nCourse officially begins on Makara Sankranti (Sun entering Capricorn) on a Thursday - both auspicious for spiritual learning\nFuture webinars will be held Sundays at 11 AM CET during Guru Hora\nCalendar will be shared for planning ahead\n\n\n\nCourse Logistics & Guidelines\nTelegram Group Usage: - Follow the syllabus/modules systematically - Keep questions focused on current module being studied - Ask intentional, specific questions (not open-ended “tell us more”) - Telegram is just a tool - take your own notes as primary resource - Mentors monitor discussions and will intervene if needed\nLearning Approach: - Self-paced online course with mentor support - Guruji’s teaching method: Start with the NAME → meaning → application - Not spoon-feeding - some questions left for self-research - Learn from each other’s questions and discussions\nMaterials: - Adobe Flash issue being resolved - patience requested - All webinars recorded on private YouTube channel (permanent access) - 2-year access to PJC Year 1 materials (extendable)\n\n\nMain Teaching: What is Jyotish?\nJyotish = Study of 33 Devas (not just planets/signs)\n\n1. Ashtavasu (8 Vassus/Lights)\n\nSun & Moon - Original light givers (luminaries)\n5 Tatwa Planets - Give knowledge through their physical nature:\n\nMars (Agni) - Fire, energy, engineering\nMercury (Prithvi) - Earth, solid state\nJupiter (Akasha) - Space, magnetism, connection\nVenus (Jala) - Water, liquid state\nSaturn (Vayu) - Air, movement, breath, longevity\n\nNakshatras - Mental desires and emotional states\n\n\n\n2. Dvadasha Adityas (12 Adityas)\n\nThe 12 months/signs representing all material resources\nSun’s movement creates 30-degree portions (rashis)\nEach sign = time period + space\nVishnu Aditya youngest\n\n\n\n3. Ekadasha Rudra (11 Rudras)\n\nAddress destruction energies in horoscope\n10 hold prana (life force) in body\n11th relates to individual soul (calculated from Atmakaraka)\nConnected to Rudra Bhavas (houses that can end life)\n\n\n\n4. Indra & Prajapati (2)\n\nPrajapati = Lagna/1st house (our creation/birth)\nIndra = 10th house (throne, control of senses, karma)\n\n\n\n\nKey Concepts Clarified\nRashis vs Bhavas: - Rashis = Material resources, physical quantities (“heap”) - Bhavas = Our thoughts/perceptions about life aspects\nImportant Axes: - 1st-7th: Birth-Death, Me-Others (horizontal, eye-level) - 4th-10th: Midnight-Noon, Lowest-Highest point (vertical)\nThree Material Worlds: - Bhuloka - Earth (where we are) - Bhuvarloka - Solar system (Sun, planets) - Svargaloka - Sky (nakshatras, constellations)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#opening-structure",
+    "href": "1_pjc.html#opening-structure",
+    "title": "PJC-1",
+    "section": "Opening & Structure",
+    "text": "Opening & Structure\n\nStarted with Guru Mantra (Om Guruve Namaha) repeated 12 times\nCourse officially begins on Makara Sankranti (Sun entering Capricorn) on a Thursday - both auspicious for spiritual learning\nFuture webinars will be held Sundays at 11 AM CET during Guru Hora\nCalendar will be shared for planning ahead",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#course-logistics-guidelines",
+    "href": "1_pjc.html#course-logistics-guidelines",
+    "title": "PJC-1",
+    "section": "Course Logistics & Guidelines",
+    "text": "Course Logistics & Guidelines\nTelegram Group Usage: - Follow the syllabus/modules systematically - Keep questions focused on current module being studied - Ask intentional, specific questions (not open-ended “tell us more”) - Telegram is just a tool - take your own notes as primary resource - Mentors monitor discussions and will intervene if needed\nLearning Approach: - Self-paced online course with mentor support - Guruji’s teaching method: Start with the NAME → meaning → application - Not spoon-feeding - some questions left for self-research - Learn from each other’s questions and discussions\nMaterials: - Adobe Flash issue being resolved - patience requested - All webinars recorded on private YouTube channel (permanent access) - 2-year access to PJC Year 1 materials (extendable)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#main-teaching-what-is-jyotish",
+    "href": "1_pjc.html#main-teaching-what-is-jyotish",
+    "title": "PJC-1",
+    "section": "Main Teaching: What is Jyotish?",
+    "text": "Main Teaching: What is Jyotish?\nJyotish = Study of 33 Devas (not just planets/signs)\n\n1. Ashtavasu (8 Vassus/Lights)\n\nSun & Moon - Original light givers (luminaries)\n5 Tatwa Planets - Give knowledge through their physical nature:\n\nMars (Agni) - Fire, energy, engineering\nMercury (Prithvi) - Earth, solid state\nJupiter (Akasha) - Space, magnetism, connection\nVenus (Jala) - Water, liquid state\nSaturn (Vayu) - Air, movement, breath, longevity\n\nNakshatras - Mental desires and emotional states\n\n\n\n2. Dvadasha Adityas (12 Adityas)\n\nThe 12 months/signs representing all material resources\nSun’s movement creates 30-degree portions (rashis)\nEach sign = time period + space\nVishnu Aditya youngest\n\n\n\n3. Ekadasha Rudra (11 Rudras)\n\nAddress destruction energies in horoscope\n10 hold prana (life force) in body\n11th relates to individual soul (calculated from Atmakaraka)\nConnected to Rudra Bhavas (houses that can end life)\n\n\n\n4. Indra & Prajapati (2)\n\nPrajapati = Lagna/1st house (our creation/birth)\nIndra = 10th house (throne, control of senses, karma)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#key-concepts-clarified",
+    "href": "1_pjc.html#key-concepts-clarified",
+    "title": "PJC-1",
+    "section": "Key Concepts Clarified",
+    "text": "Key Concepts Clarified\nRashis vs Bhavas: - Rashis = Material resources, physical quantities (“heap”) - Bhavas = Our thoughts/perceptions about life aspects\nImportant Axes: - 1st-7th: Birth-Death, Me-Others (horizontal, eye-level) - 4th-10th: Midnight-Noon, Lowest-Highest point (vertical)\nThree Material Worlds: - Bhuloka - Earth (where we are) - Bhuvarloka - Solar system (Sun, planets) - Svargaloka - Sky (nakshatras, constellations)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-4",
+    "href": "1_pjc.html#lesson-4",
+    "title": "PJC-1",
+    "section": "Lesson 4",
+    "text": "Lesson 4\n\n\n\n\n\n\nCautionSummary of Lesson 4: Panchanga (Five Limbs of Time)\n\n\n\n\n\n\nOpening Context\n\nThis is part of the Aramba (preparatory) portion of PJC Year 1\nAramba introduces many concepts that students will revisit throughout the year\nFocus is on understanding basic concepts before diving deeper\n\n\n\nWhat is Panchanga?\nPancha = Five, Anga = Limbs\nThe five fundamental divisions of time that form the foundation of any horoscope. Panchanga must be examined before looking at planetary positions, as it shows the quality of time for that birth.\n\nThe Five Limbs:\n\nVara (Day) - Agni Tatva\nTithi (Lunar day) - Jala Tatva\n\nKarana (Half-tithi) - Prithvi Tatva\nNakshatra (Lunar mansion) - Vayu Tatva\nYoga (Sun-Moon combination) - Akasha Tatva\n\n\n\n\nBenefits of Learning Panchanga\n\nVara - Prolongs life\nTithi - Brings prosperity\nKarana - Gives success in all tasks\nNakshatra - Removes sin\nYoga - Immunity from disease\n\n\n\n1. VARA (The Day)\nConnection: Agni (fire), energy levels, physical health\nCalculation: Sunrise to next sunrise\nSeven Varas: Ravivara (Sunday), Somavara (Monday), Mangalavara (Tuesday), Buddhavara (Wednesday), Guruvara (Thursday), Shukravara (Friday), Shanivara (Saturday)\nAnalysis: - Check Varesha (lord of the day) placement from Lagna - Also check Varesha placement from Surya\nExample Given: Franklin D. Roosevelt - Born Monday (Varesha = Moon) - Moon in 10th house conjunct Mars - Moon has zero Digbala (directional strength) in 10th - Moon-Mars = Gandanta (fire-water conflict) - Moon in 6th from Sun (enemy position) - Result: Polio (health issues related to movement on 4th-10th axis)\n\nVara Chakra Concepts:\n\n6th graha = enemy (Shatru)\n8th graha = eclipse (Grahana) - blocks manifestation\n\n\n\n\n2. TITHI (Lunar Day)\nConnection: Jala Tatva, relationships, emotional content, interactions\nCalculation: Sun-Moon relationship; 1 tithi = 12 degrees of zodiac\n30 Tithis total: 15 in Krishna Paksha (waning), 15 in Shukla Paksha (waxing)\nEight Lords: Surya, Chandra, Mangala, Budha, Guru, Shukra, Shani, Rahu (Ketu has no lordship)\nAnalysis: Check Tithi lord placement from 4th house\n\nProblematic Tithis:\nRikta Tithis (4th, 9th, 14th) - Most problematic: - Too much emotion, self-centered - Chaturthi - Ganesha (deity) - Navami - Durga (deity) - Chaturdashi - Shiva (deity)\nOther Doshas: - Ekadashi (11th) - Addiction/anger issues (Mars/Agni) → fasting advised - Trayodashi (13th) - Wealth problems - Krishna Chaturdashi & Shukla Pratipada - Serious relationship issues (related to Soma’s sin with Tara)\nExample Given: Marilyn Monroe - Tithi lord = Venus - Venus in 10th house in Aries (enemy sign) - Zero Digbala - Had relationships but they were problematic\n\n\n\n3. DIG CHAKRA (Directional Strength)\nEight directions where grahas have full potential:\n\nEast (Indra) - Surya - Self-realization\nSoutheast (Agni) - Shukra - Details, art\nSouth (Yama) - Mangala - Warrior energy\nSouthwest (Niriti) - Rahu - Chaos\nWest (Varuna) - Shani - Detachment\nNorthwest (Vayu) - Chandra - Movement\nNorth (Kubera) - Budha - Wealth, profession\nNortheast (Ishana) - Guru - Knowledge\n\nPlus: Upward (Ketu/Ananta - Moksha), Downward (Lagna/Brahma - Rebirth)\n\n\n4. KALA CHAKRA (Time/Blockage Wheel)\nShows which grahas block each direction:\n\nMangala blocks Shukra (Agni corner)\nGuru blocks Mangala (Yama corner)\nBudha blocks Rahu (Niriti corner)\nShukra blocks Shani (Varuna corner)\nChandra blocks Budha (Kubera corner)\nRahu blocks Guru (Ishana corner)\nKetu blocks Surya (Indra corner)\n\nKey Point: These are pairs that create either debate (Sattvic) or war (Tamasic)\n\n\n\nImportant Reminders:\n\nPanchanga is the first layer - more factors will be added\nCannot make final judgments from Panchanga alone\nMust learn grahas, rashis, bhavas before complete analysis\nReturn to Aramba concepts throughout the year as understanding deepens\n\nWould you like me to clarify any specific aspect of Panchanga?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#opening-context",
+    "href": "1_pjc.html#opening-context",
+    "title": "PJC-1",
+    "section": "Opening Context",
+    "text": "Opening Context\n\nThis is part of the Aramba (preparatory) portion of PJC Year 1\nAramba introduces many concepts that students will revisit throughout the year\nFocus is on understanding basic concepts before diving deeper",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#what-is-panchanga",
+    "href": "1_pjc.html#what-is-panchanga",
+    "title": "PJC-1",
+    "section": "What is Panchanga?",
+    "text": "What is Panchanga?\nPancha = Five, Anga = Limbs\nThe five fundamental divisions of time that form the foundation of any horoscope. Panchanga must be examined before looking at planetary positions, as it shows the quality of time for that birth.\n\nThe Five Limbs:\n\nVara (Day) - Agni Tatva\nTithi (Lunar day) - Jala Tatva\n\nKarana (Half-tithi) - Prithvi Tatva\nNakshatra (Lunar mansion) - Vayu Tatva\nYoga (Sun-Moon combination) - Akasha Tatva",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#benefits-of-learning-panchanga",
+    "href": "1_pjc.html#benefits-of-learning-panchanga",
+    "title": "PJC-1",
+    "section": "Benefits of Learning Panchanga",
+    "text": "Benefits of Learning Panchanga\n\nVara - Prolongs life\nTithi - Brings prosperity\nKarana - Gives success in all tasks\nNakshatra - Removes sin\nYoga - Immunity from disease",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#vara-the-day",
+    "href": "1_pjc.html#vara-the-day",
+    "title": "PJC-1",
+    "section": "1. VARA (The Day)",
+    "text": "1. VARA (The Day)\nConnection: Agni (fire), energy levels, physical health\nCalculation: Sunrise to next sunrise\nSeven Varas: Ravivara (Sunday), Somavara (Monday), Mangalavara (Tuesday), Buddhavara (Wednesday), Guruvara (Thursday), Shukravara (Friday), Shanivara (Saturday)\nAnalysis: - Check Varesha (lord of the day) placement from Lagna - Also check Varesha placement from Surya\nExample Given: Franklin D. Roosevelt - Born Monday (Varesha = Moon) - Moon in 10th house conjunct Mars - Moon has zero Digbala (directional strength) in 10th - Moon-Mars = Gandanta (fire-water conflict) - Moon in 6th from Sun (enemy position) - Result: Polio (health issues related to movement on 4th-10th axis)\n\nVara Chakra Concepts:\n\n6th graha = enemy (Shatru)\n8th graha = eclipse (Grahana) - blocks manifestation",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#tithi-lunar-day",
+    "href": "1_pjc.html#tithi-lunar-day",
+    "title": "PJC-1",
+    "section": "2. TITHI (Lunar Day)",
+    "text": "2. TITHI (Lunar Day)\nConnection: Jala Tatva, relationships, emotional content, interactions\nCalculation: Sun-Moon relationship; 1 tithi = 12 degrees of zodiac\n30 Tithis total: 15 in Krishna Paksha (waning), 15 in Shukla Paksha (waxing)\nEight Lords: Surya, Chandra, Mangala, Budha, Guru, Shukra, Shani, Rahu (Ketu has no lordship)\nAnalysis: Check Tithi lord placement from 4th house\n\nProblematic Tithis:\nRikta Tithis (4th, 9th, 14th) - Most problematic: - Too much emotion, self-centered - Chaturthi - Ganesha (deity) - Navami - Durga (deity) - Chaturdashi - Shiva (deity)\nOther Doshas: - Ekadashi (11th) - Addiction/anger issues (Mars/Agni) → fasting advised - Trayodashi (13th) - Wealth problems - Krishna Chaturdashi & Shukla Pratipada - Serious relationship issues (related to Soma’s sin with Tara)\nExample Given: Marilyn Monroe - Tithi lord = Venus - Venus in 10th house in Aries (enemy sign) - Zero Digbala - Had relationships but they were problematic",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#dig-chakra-directional-strength",
+    "href": "1_pjc.html#dig-chakra-directional-strength",
+    "title": "PJC-1",
+    "section": "3. DIG CHAKRA (Directional Strength)",
+    "text": "3. DIG CHAKRA (Directional Strength)\nEight directions where grahas have full potential:\n\nEast (Indra) - Surya - Self-realization\nSoutheast (Agni) - Shukra - Details, art\nSouth (Yama) - Mangala - Warrior energy\nSouthwest (Niriti) - Rahu - Chaos\nWest (Varuna) - Shani - Detachment\nNorthwest (Vayu) - Chandra - Movement\nNorth (Kubera) - Budha - Wealth, profession\nNortheast (Ishana) - Guru - Knowledge\n\nPlus: Upward (Ketu/Ananta - Moksha), Downward (Lagna/Brahma - Rebirth)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#kala-chakra-timeblockage-wheel",
+    "href": "1_pjc.html#kala-chakra-timeblockage-wheel",
+    "title": "PJC-1",
+    "section": "4. KALA CHAKRA (Time/Blockage Wheel)",
+    "text": "4. KALA CHAKRA (Time/Blockage Wheel)\nShows which grahas block each direction:\n\nMangala blocks Shukra (Agni corner)\nGuru blocks Mangala (Yama corner)\nBudha blocks Rahu (Niriti corner)\nShukra blocks Shani (Varuna corner)\nChandra blocks Budha (Kubera corner)\nRahu blocks Guru (Ishana corner)\nKetu blocks Surya (Indra corner)\n\nKey Point: These are pairs that create either debate (Sattvic) or war (Tamasic)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#important-reminders",
+    "href": "1_pjc.html#important-reminders",
+    "title": "PJC-1",
+    "section": "Important Reminders:",
+    "text": "Important Reminders:\n\nPanchanga is the first layer - more factors will be added\nCannot make final judgments from Panchanga alone\nMust learn grahas, rashis, bhavas before complete analysis\nReturn to Aramba concepts throughout the year as understanding deepens\n\nWould you like me to clarify any specific aspect of Panchanga?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-5",
+    "href": "1_pjc.html#lesson-5",
+    "title": "PJC-1",
+    "section": "Lesson 5",
+    "text": "Lesson 5\n\n\n\n\n\n\nCautionSummary of Lesson 5: Rashi Swarupa (Nature of Signs)\n\n\n\n\n\n\nOpening Context & Housekeeping\nLearning Process: - Jyotish learning is spiral - same topics revisited from different angles/levels - Currently using “microscope” approach (detailed) vs “telescope” (broad picture from Aramba) - Learning Jyotish is like performing Brahma Yagya - devas work on you as you learn - Don’t fear Panchanga doshas you discover - you’re only seeing small details, not full picture\nImportant Clarifications: - Do NOT worship Sanjay Rath or put his picture on altar - He is Shiksha Guru (5th house - teacher of subject) - NOT Diksha Guru (9th house - spiritual guide who takes responsibility for soul)\n\n\n\nRASHI NAMES (Parashara-Specific)\nNames that differ from popular usage: - Mesha (Aries) - Ram - Vrishabha/Vrisha (Taurus) - Bull - Mithuna (Gemini) - Couple - Karkata (Cancer) - Crab - Simha (Leo) - Lion - Kumari (Virgo) - Young virgin girl (not just Kanya) - Tula (Libra) - Scale/Balance - Ali (Scorpio) - NOT Vrishchika; means blessing, bridge, or exalted (refers to semen storage) - Dhanu (Sagittarius) - Bow/Archer - Makara/Nakra (Capricorn) - Reversal of hell (karma determines direction) - Kumbha (Aquarius) - Pot/Water bearer - Meena (Pisces) - Fish\n\n\n\nBRAHMA DOSHA (Creation Flaw)\nKey Principle: Rashis with unclear/multiple symbols carry Brahma Dosha\n\n5 Rashis WITHOUT Dosha:\nClear, single-element symbols: 1. Mesha - Ram (clear) 2. Vrishabha - Bull (clear) 3. Karkata - Crab (clear) 4. Simha - Lion (clear) 5. Vrishchika/Ali - Scorpion (clear)\n\n\n7 Rashis WITH Dosha:\n\n\n\n\n\n\n\n\n\nRashi\nPlanet Showing Dosha\nDevata Angered\nNature of Dosha\n\n\n\n\nMeena\nSurya (Sun)\nAgni\nFish cursed to never see sunlight; Remedy: Pranayama\n\n\nKumbha\nChandra (Moon)\nJala\nWater gets spoiled/fermented in pot; emotions problematic\n\n\nMakara\nGuru (Jupiter)\nIndra\nLoss of senses/direction; alcohol issues\n\n\nDhanu\nBudha (Mercury)\nVishnu\nBattlefield; right vs wrong obsession; righteous anger\n\n\nTula\nMangala (Mars)\nSkanda\nWar vs prosperity conflict; “all fair in love and war”\n\n\nKanya\nShani (Saturn)\nBrahma\nPurity vs impurity; obsession with cleanliness\n\n\nMithuna\nShukra (Venus)\nLakshmi\nBoy + girl + club + instrument; dominant Bhuloka dosha; relationship/emotion issues\n\n\n\nUsage: Check dosha planet in chart when analyzing that ascendant - may not be as helpful as expected\n\n\n\n\nRASHI COLORS\n\nMesha - Blood red/royal red\nVrishabha - Milk white\nMithuna - Green (all shades)\nKarkata - White with red tinge (light pink)\nSimha - White with yellow tinge (off-white/sand)\nKanya - Gray (intestines; discernment)\nTula - Black\nVrishchika - Light yellow (brownish due to Ketu)\nDhanu - Dark yellow/turmeric/golden\nMakara - Dark blue (industrial)\nKumbha - Purple (Rahu; fermentation/poison/medicine)\nMeena - Light blue (sky blue)\n\n\n\n\nBODY PARTS (Kalapurusha)\nNatural zodiac = God’s body template: 1. Mesha - Head 2. Vrishabha - Face & neck 3. Mithuna - Arms & shoulders 4. Karkata - Chest, heart, breast 5. Simha - Stomach & liver 6. Kanya - Intestines, navel 7. Tula - Below navel, kidneys 8. Vrishchika - Genitalia (HORIZONTAL - Ketu reverses) 9. Dhanu - Thighs 10. Makara - Knees 11. Kumbha - Calves 12. Meena - Feet (HORIZONTAL - Ketu reverses)\nException: Ketu-ruled parts are horizontal, not vertical\n\n\n\nGUNA OF RASHIS (Two Systems)\n\nSystem 1: By Creation/Mobility\n\n\n\n\n\n\n\n\n\n\nType\nRashis\nGuna\nEnergy\nDevata\n\n\n\n\nChara (Movable)\nMesha, Karkata, Tula, Makara\nRajas\nExcess energy, pioneers, creative\nBrahma\n\n\nSthira (Fixed)\nVrishabha, Simha, Vrishchika, Kumbha\nTamas\nInert, stable, sustaining\nRudra\n\n\nDwi (Dual)\nMithuna, Kanya, Dhanu, Meena\nSattva\nBalanced between mobile & fixed\nVishnu\n\n\n\n\n\nSystem 2: By Lordship\nRashi lord’s guna adds layer to rashi: - Sattva planets: Surya, Chandra, Guru - Rajas planets: Budha, Shukra - Tamas planets: Mangala, Shani\nExample: Mesha = Chara (Rajas by creation) + Mars lord (Tamas) = High energy but can be lazy/uninformed\nHow to Read: Check which guna dominates based on lord’s strength in chart\n\n\n\n\nMALE/FEMALE SIGNS\n\nKrura (Cruel/Male) - ODD signs:\nMesha, Mithuna, Simha, Tula, Dhanu, Kumbha - Aggressive, assertive, extroverted, outspoken - Make own decisions, less likely to seek advice\n\n\nSaumya (Gentle/Female) - EVEN signs:\nVrishabha, Karkata, Kanya, Vrishchika, Makara, Meena - Passive, introverted, sustaining - More likely to seek guidance/advice\nFor Child Gender (Saptamsha only): - Mithuna & Karkata SWAP - Kumbha & Meena SWAP\n\n\n\n\nYUGA RASHIS (Dharma/Light Level)\n\nKrita/Satya: Simha, Vrishchika, Kumbha, Vrishabha - Things come easily, 100% support\nTreta: Mesha, Karkata, Tula, Makara - 75% support, some effort needed\nDwapara: Dhanu, Meena, Mithuna, Kanya - 50% support\nKali: (remaining context) - Least support\n\nUsage: Shows how much support/ease person has in getting knowledge, solutions\n\n\n\nPLANETARY CABINET (Lordship Logic)\nFrom Sun & Moon (King & Queen): 1. Sun & Moon - Leo & Cancer (King & Queen’s quarters) 2. Budha - Gemini & Virgo (Prince/Princess - next to parents) 3. Shukra - Taurus & Libra (Court ladies) 4. Mangala - Aries & Scorpio (Guards/Knights; Scorpio also has spies via Ketu) 5. Guru - Sagittarius & Pisces (Advisors/Priests/Ministers) 6. Shani - Capricorn & Aquarius (Workers/Commoners/Labor)\nAlso shows: Speed of planets from Earth (geocentric view)\n\n\n\nMEMORY AID: Hand Method\nFingers = 12 Rashis (4 fingers × 3 parts = 12)\n\nFingertips (top part) = Chara rashis (Mesha, Karkata, Tula, Makara) - Most mobile, doing karma\nMiddle sections = Sthira rashis (Vrishabha, Simha, Vrishchika, Kumbha) - Fixed, no free will\nBase/Root = Dwi rashis (Mithuna, Kanya, Dhanu, Meena) - Most controlling lagnas!\n\nDual lagnas control through: - Budha lagnas (Mithuna/Kanya) - Control via information/details - Guru lagnas (Dhanu/Meena) - Control via knowledge/belief systems\n\nNext Steps: This foundational knowledge will be layered with grahas (planets), bhavas (houses), and yogas in upcoming lessons.\nWould you like me to clarify any specific concept?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#opening-context-housekeeping",
+    "href": "1_pjc.html#opening-context-housekeeping",
+    "title": "PJC-1",
+    "section": "Opening Context & Housekeeping",
+    "text": "Opening Context & Housekeeping\nLearning Process: - Jyotish learning is spiral - same topics revisited from different angles/levels - Currently using “microscope” approach (detailed) vs “telescope” (broad picture from Aramba) - Learning Jyotish is like performing Brahma Yagya - devas work on you as you learn - Don’t fear Panchanga doshas you discover - you’re only seeing small details, not full picture\nImportant Clarifications: - Do NOT worship Sanjay Rath or put his picture on altar - He is Shiksha Guru (5th house - teacher of subject) - NOT Diksha Guru (9th house - spiritual guide who takes responsibility for soul)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#rashi-names-parashara-specific",
+    "href": "1_pjc.html#rashi-names-parashara-specific",
+    "title": "PJC-1",
+    "section": "RASHI NAMES (Parashara-Specific)",
+    "text": "RASHI NAMES (Parashara-Specific)\nNames that differ from popular usage: - Mesha (Aries) - Ram - Vrishabha/Vrisha (Taurus) - Bull - Mithuna (Gemini) - Couple - Karkata (Cancer) - Crab - Simha (Leo) - Lion - Kumari (Virgo) - Young virgin girl (not just Kanya) - Tula (Libra) - Scale/Balance - Ali (Scorpio) - NOT Vrishchika; means blessing, bridge, or exalted (refers to semen storage) - Dhanu (Sagittarius) - Bow/Archer - Makara/Nakra (Capricorn) - Reversal of hell (karma determines direction) - Kumbha (Aquarius) - Pot/Water bearer - Meena (Pisces) - Fish",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#brahma-dosha-creation-flaw",
+    "href": "1_pjc.html#brahma-dosha-creation-flaw",
+    "title": "PJC-1",
+    "section": "BRAHMA DOSHA (Creation Flaw)",
+    "text": "BRAHMA DOSHA (Creation Flaw)\nKey Principle: Rashis with unclear/multiple symbols carry Brahma Dosha\n\n5 Rashis WITHOUT Dosha:\nClear, single-element symbols: 1. Mesha - Ram (clear) 2. Vrishabha - Bull (clear) 3. Karkata - Crab (clear) 4. Simha - Lion (clear) 5. Vrishchika/Ali - Scorpion (clear)\n\n\n7 Rashis WITH Dosha:\n\n\n\n\n\n\n\n\n\nRashi\nPlanet Showing Dosha\nDevata Angered\nNature of Dosha\n\n\n\n\nMeena\nSurya (Sun)\nAgni\nFish cursed to never see sunlight; Remedy: Pranayama\n\n\nKumbha\nChandra (Moon)\nJala\nWater gets spoiled/fermented in pot; emotions problematic\n\n\nMakara\nGuru (Jupiter)\nIndra\nLoss of senses/direction; alcohol issues\n\n\nDhanu\nBudha (Mercury)\nVishnu\nBattlefield; right vs wrong obsession; righteous anger\n\n\nTula\nMangala (Mars)\nSkanda\nWar vs prosperity conflict; “all fair in love and war”\n\n\nKanya\nShani (Saturn)\nBrahma\nPurity vs impurity; obsession with cleanliness\n\n\nMithuna\nShukra (Venus)\nLakshmi\nBoy + girl + club + instrument; dominant Bhuloka dosha; relationship/emotion issues\n\n\n\nUsage: Check dosha planet in chart when analyzing that ascendant - may not be as helpful as expected",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#rashi-colors",
+    "href": "1_pjc.html#rashi-colors",
+    "title": "PJC-1",
+    "section": "RASHI COLORS",
+    "text": "RASHI COLORS\n\nMesha - Blood red/royal red\nVrishabha - Milk white\nMithuna - Green (all shades)\nKarkata - White with red tinge (light pink)\nSimha - White with yellow tinge (off-white/sand)\nKanya - Gray (intestines; discernment)\nTula - Black\nVrishchika - Light yellow (brownish due to Ketu)\nDhanu - Dark yellow/turmeric/golden\nMakara - Dark blue (industrial)\nKumbha - Purple (Rahu; fermentation/poison/medicine)\nMeena - Light blue (sky blue)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#body-parts-kalapurusha",
+    "href": "1_pjc.html#body-parts-kalapurusha",
+    "title": "PJC-1",
+    "section": "BODY PARTS (Kalapurusha)",
+    "text": "BODY PARTS (Kalapurusha)\nNatural zodiac = God’s body template: 1. Mesha - Head 2. Vrishabha - Face & neck 3. Mithuna - Arms & shoulders 4. Karkata - Chest, heart, breast 5. Simha - Stomach & liver 6. Kanya - Intestines, navel 7. Tula - Below navel, kidneys 8. Vrishchika - Genitalia (HORIZONTAL - Ketu reverses) 9. Dhanu - Thighs 10. Makara - Knees 11. Kumbha - Calves 12. Meena - Feet (HORIZONTAL - Ketu reverses)\nException: Ketu-ruled parts are horizontal, not vertical",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#guna-of-rashis-two-systems",
+    "href": "1_pjc.html#guna-of-rashis-two-systems",
+    "title": "PJC-1",
+    "section": "GUNA OF RASHIS (Two Systems)",
+    "text": "GUNA OF RASHIS (Two Systems)\n\nSystem 1: By Creation/Mobility\n\n\n\n\n\n\n\n\n\n\nType\nRashis\nGuna\nEnergy\nDevata\n\n\n\n\nChara (Movable)\nMesha, Karkata, Tula, Makara\nRajas\nExcess energy, pioneers, creative\nBrahma\n\n\nSthira (Fixed)\nVrishabha, Simha, Vrishchika, Kumbha\nTamas\nInert, stable, sustaining\nRudra\n\n\nDwi (Dual)\nMithuna, Kanya, Dhanu, Meena\nSattva\nBalanced between mobile & fixed\nVishnu\n\n\n\n\n\nSystem 2: By Lordship\nRashi lord’s guna adds layer to rashi: - Sattva planets: Surya, Chandra, Guru - Rajas planets: Budha, Shukra - Tamas planets: Mangala, Shani\nExample: Mesha = Chara (Rajas by creation) + Mars lord (Tamas) = High energy but can be lazy/uninformed\nHow to Read: Check which guna dominates based on lord’s strength in chart",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#malefemale-signs",
+    "href": "1_pjc.html#malefemale-signs",
+    "title": "PJC-1",
+    "section": "MALE/FEMALE SIGNS",
+    "text": "MALE/FEMALE SIGNS\n\nKrura (Cruel/Male) - ODD signs:\nMesha, Mithuna, Simha, Tula, Dhanu, Kumbha - Aggressive, assertive, extroverted, outspoken - Make own decisions, less likely to seek advice\n\n\nSaumya (Gentle/Female) - EVEN signs:\nVrishabha, Karkata, Kanya, Vrishchika, Makara, Meena - Passive, introverted, sustaining - More likely to seek guidance/advice\nFor Child Gender (Saptamsha only): - Mithuna & Karkata SWAP - Kumbha & Meena SWAP",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#yuga-rashis-dharmalight-level",
+    "href": "1_pjc.html#yuga-rashis-dharmalight-level",
+    "title": "PJC-1",
+    "section": "YUGA RASHIS (Dharma/Light Level)",
+    "text": "YUGA RASHIS (Dharma/Light Level)\n\nKrita/Satya: Simha, Vrishchika, Kumbha, Vrishabha - Things come easily, 100% support\nTreta: Mesha, Karkata, Tula, Makara - 75% support, some effort needed\nDwapara: Dhanu, Meena, Mithuna, Kanya - 50% support\nKali: (remaining context) - Least support\n\nUsage: Shows how much support/ease person has in getting knowledge, solutions",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#planetary-cabinet-lordship-logic",
+    "href": "1_pjc.html#planetary-cabinet-lordship-logic",
+    "title": "PJC-1",
+    "section": "PLANETARY CABINET (Lordship Logic)",
+    "text": "PLANETARY CABINET (Lordship Logic)\nFrom Sun & Moon (King & Queen): 1. Sun & Moon - Leo & Cancer (King & Queen’s quarters) 2. Budha - Gemini & Virgo (Prince/Princess - next to parents) 3. Shukra - Taurus & Libra (Court ladies) 4. Mangala - Aries & Scorpio (Guards/Knights; Scorpio also has spies via Ketu) 5. Guru - Sagittarius & Pisces (Advisors/Priests/Ministers) 6. Shani - Capricorn & Aquarius (Workers/Commoners/Labor)\nAlso shows: Speed of planets from Earth (geocentric view)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#memory-aid-hand-method",
+    "href": "1_pjc.html#memory-aid-hand-method",
+    "title": "PJC-1",
+    "section": "MEMORY AID: Hand Method",
+    "text": "MEMORY AID: Hand Method\nFingers = 12 Rashis (4 fingers × 3 parts = 12)\n\nFingertips (top part) = Chara rashis (Mesha, Karkata, Tula, Makara) - Most mobile, doing karma\nMiddle sections = Sthira rashis (Vrishabha, Simha, Vrishchika, Kumbha) - Fixed, no free will\nBase/Root = Dwi rashis (Mithuna, Kanya, Dhanu, Meena) - Most controlling lagnas!\n\nDual lagnas control through: - Budha lagnas (Mithuna/Kanya) - Control via information/details - Guru lagnas (Dhanu/Meena) - Control via knowledge/belief systems\n\nNext Steps: This foundational knowledge will be layered with grahas (planets), bhavas (houses), and yogas in upcoming lessons.\nWould you like me to clarify any specific concept?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-6",
+    "href": "1_pjc.html#lesson-6",
+    "title": "PJC-1",
+    "section": "Lesson 6",
+    "text": "Lesson 6\n\n\n\n\n\n\nCautionSummary of Lesson 6: Katapayadi & Bhava Chakras\n\n\n\n\n\n\n1. KATAPAYADI SYSTEM (Numerical Values from Names)\nCore Principle: Sanskrit consonants have numerical values (0-9)\nKey Rules: - Vowels = 0 (only counted if name starts with vowel) - Use pronunciation, not spelling - Drop incomplete consonants (without following vowel) - Ra/La rule: If consonants joined with R or L, keep only initial consonant - Reverse the number after calculation - Divide by 12 to get remainder = Rashi\nExample: Vivekananda - Consonants: Va-Ve-Ka-Na-Na-Da - Values: 4-4-1-0-8 - Number: 44108 → Reversed: 80144 - After dividing by 12 → Remainder = 4 (karka rahsi)\nUsage: - Rashi (sign) = interaction with people - House number = inner manifestation\n\n\n\n2. ASTRONOMICAL BASICS\nHorizon: Where earth and sky meet (observer-dependent)\nKey Points: - Udaya Lagna = Eastern horizon (rising point) - Asta Lagna = Western horizon (setting point) - 180° from Udaya - MC (Mid-Heaven/Zenith) = 90° above observer - Ecliptic = Horizontal plane between Sun & Earth\nDirectional Degrees: - North = 0°/360° - East = 90° - South = 180° - West = 270°\n\n\n\n3. BHAVA CHAKRA (House System)\nMethod: Take Lagna degree ± 15 degrees = 30° house span\nExample: Swami Vivekananda (26° Dhanu Lagna) - 1st House = 11° Dhanu to 11° Makara - 2nd House = 11° Makara to 11° Kumbha - And so on…\nResult: Planets may shift houses if they’re within 15° of cusp\nIn Vivekananda’s chart: - Mars shifted from 5th → 4th house - Venus shifted from 2nd → 1st house - Jupiter shifted to 10th house\nSignificance: When many planets shift = major life transformations\n\n\n\n4. BHAVA CHALIT CHAKRA\nStarting Point: Uses Bhava Lagna (special lagna, moves 2 hours/sign)\nSame process: Bhava Lagna degree ± 15°\nKey Difference: - Bhava Chakra starts from Udaya Lagna - Bhava Chalit starts from Bhava Lagna (calculated separately)\n\n\n\n5. BIOLOGICAL CLOCK CHART (Practical Application)\nSetup: 1. Draw Bhava Chalit Chakra 2. Place 6 AM where Sun is located 3. Place 6 PM in 7th house from Sun 4. Each house = 2-hour period\nPlanet Activities & Best Times:\n\n\n\n\n\n\n\n\nPlanet\nActivity\nBest Time\n\n\n\n\nSurya\nSpiritual practice, energy level\nSun’s house + aspects\n\n\nChandra\nEating/food\nMoon’s house + aspects\n\n\nMangala\nExercise, physical strength\nMars house + aspects (4th, 7th, 8th from itself)\n\n\nBudha\nReading, learning, playing\nMercury’s house + aspects\n\n\nGuru\nBig decisions, digestion, conclusions\nJupiter’s house + aspects\n\n\nShukra\nRelationships, indulgence\nVenus’s house + aspects\n\n\nShani\nResting (15 min minimum)\nSaturn’s house + aspects\n\n\nRahu\nNO activity - meditation time\nRahu’s house + aspects\n\n\nKetu\nAvoid activities - meditation\nKetu’s house + aspects\n\n\n\nImportant Notes: - Check planet’s aspects (5th, 7th, 9th, 2nd from itself for Rahu) - When planets conjunct = divide time between both activities - Each house = 2 hours, but find at least 15 min for that activity - Movement is anti-zodiacal (Sun moves through houses, not signs)\n\n\n\n6. CHART TYPES (Three Representations)\n\nSurya Chakra (East Indian) - for spirituality\nBrigu Chakra (North Indian) - for Bhava Chakra\nGuru Chakra (South Indian) - for Vastu\n\nPractice tip: Use each chart exclusively for 1-3 months to master all types\n\nHomework: Draw your Bhava Chalit Chakra and create your biological clock timing table!\nWould you like clarification on any specific concept?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#katapayadi-system-numerical-values-from-names",
+    "href": "1_pjc.html#katapayadi-system-numerical-values-from-names",
+    "title": "PJC-1",
+    "section": "1. KATAPAYADI SYSTEM (Numerical Values from Names)",
+    "text": "1. KATAPAYADI SYSTEM (Numerical Values from Names)\nCore Principle: Sanskrit consonants have numerical values (0-9)\nKey Rules: - Vowels = 0 (only counted if name starts with vowel) - Use pronunciation, not spelling - Drop incomplete consonants (without following vowel) - Ra/La rule: If consonants joined with R or L, keep only initial consonant - Reverse the number after calculation - Divide by 12 to get remainder = Rashi\nExample: Vivekananda - Consonants: Va-Ve-Ka-Na-Na-Da - Values: 4-4-1-0-8 - Number: 44108 → Reversed: 80144 - After dividing by 12 → Remainder = 4 (karka rahsi)\nUsage: - Rashi (sign) = interaction with people - House number = inner manifestation",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#astronomical-basics",
+    "href": "1_pjc.html#astronomical-basics",
+    "title": "PJC-1",
+    "section": "2. ASTRONOMICAL BASICS",
+    "text": "2. ASTRONOMICAL BASICS\nHorizon: Where earth and sky meet (observer-dependent)\nKey Points: - Udaya Lagna = Eastern horizon (rising point) - Asta Lagna = Western horizon (setting point) - 180° from Udaya - MC (Mid-Heaven/Zenith) = 90° above observer - Ecliptic = Horizontal plane between Sun & Earth\nDirectional Degrees: - North = 0°/360° - East = 90° - South = 180° - West = 270°",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#bhava-chakra-house-system",
+    "href": "1_pjc.html#bhava-chakra-house-system",
+    "title": "PJC-1",
+    "section": "3. BHAVA CHAKRA (House System)",
+    "text": "3. BHAVA CHAKRA (House System)\nMethod: Take Lagna degree ± 15 degrees = 30° house span\nExample: Swami Vivekananda (26° Dhanu Lagna) - 1st House = 11° Dhanu to 11° Makara - 2nd House = 11° Makara to 11° Kumbha - And so on…\nResult: Planets may shift houses if they’re within 15° of cusp\nIn Vivekananda’s chart: - Mars shifted from 5th → 4th house - Venus shifted from 2nd → 1st house - Jupiter shifted to 10th house\nSignificance: When many planets shift = major life transformations",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#bhava-chalit-chakra",
+    "href": "1_pjc.html#bhava-chalit-chakra",
+    "title": "PJC-1",
+    "section": "4. BHAVA CHALIT CHAKRA",
+    "text": "4. BHAVA CHALIT CHAKRA\nStarting Point: Uses Bhava Lagna (special lagna, moves 2 hours/sign)\nSame process: Bhava Lagna degree ± 15°\nKey Difference: - Bhava Chakra starts from Udaya Lagna - Bhava Chalit starts from Bhava Lagna (calculated separately)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#biological-clock-chart-practical-application",
+    "href": "1_pjc.html#biological-clock-chart-practical-application",
+    "title": "PJC-1",
+    "section": "5. BIOLOGICAL CLOCK CHART (Practical Application)",
+    "text": "5. BIOLOGICAL CLOCK CHART (Practical Application)\nSetup: 1. Draw Bhava Chalit Chakra 2. Place 6 AM where Sun is located 3. Place 6 PM in 7th house from Sun 4. Each house = 2-hour period\nPlanet Activities & Best Times:\n\n\n\n\n\n\n\n\nPlanet\nActivity\nBest Time\n\n\n\n\nSurya\nSpiritual practice, energy level\nSun’s house + aspects\n\n\nChandra\nEating/food\nMoon’s house + aspects\n\n\nMangala\nExercise, physical strength\nMars house + aspects (4th, 7th, 8th from itself)\n\n\nBudha\nReading, learning, playing\nMercury’s house + aspects\n\n\nGuru\nBig decisions, digestion, conclusions\nJupiter’s house + aspects\n\n\nShukra\nRelationships, indulgence\nVenus’s house + aspects\n\n\nShani\nResting (15 min minimum)\nSaturn’s house + aspects\n\n\nRahu\nNO activity - meditation time\nRahu’s house + aspects\n\n\nKetu\nAvoid activities - meditation\nKetu’s house + aspects\n\n\n\nImportant Notes: - Check planet’s aspects (5th, 7th, 9th, 2nd from itself for Rahu) - When planets conjunct = divide time between both activities - Each house = 2 hours, but find at least 15 min for that activity - Movement is anti-zodiacal (Sun moves through houses, not signs)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#chart-types-three-representations",
+    "href": "1_pjc.html#chart-types-three-representations",
+    "title": "PJC-1",
+    "section": "6. CHART TYPES (Three Representations)",
+    "text": "6. CHART TYPES (Three Representations)\n\nSurya Chakra (East Indian) - for spirituality\nBrigu Chakra (North Indian) - for Bhava Chakra\nGuru Chakra (South Indian) - for Vastu\n\nPractice tip: Use each chart exclusively for 1-3 months to master all types\n\nHomework: Draw your Bhava Chalit Chakra and create your biological clock timing table!\nWould you like clarification on any specific concept?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-7",
+    "href": "1_pjc.html#lesson-7",
+    "title": "PJC-1",
+    "section": "Lesson 7",
+    "text": "Lesson 7\n\n\n\n\n\n\nCautionSummary of Lesson 7: Grahas (Planets) - Introduction\n\n\n\n\n\n\nOpening Context\n\nThis is the first of three webinars on Grahas (planets)\nTraditionally, Jyotish teaching starts with Chapter 3 (Grahas), not Chapters 1-2 (Creation/Philosophy)\nStudents should study Parashara shlokas at least 3 times to truly digest them\nUse audio recordings from other batches as supplementary material\n\n\n\n\nCORE DEFINITION: What is a Graha?\nParashara’s Definition (Chapter 3, Shloka 1): Heavenly bodies classified by: 1. Visibility (can we see them?) 2. Movement (do they move?)\n\nMoving bodies = Graha (from root “grahana” = to seize/eclipse)\nFixed bodies = Nakshatra (fixed stars)\n\nKEY POINT: Grahas have the inherent nature to eclipse the mind - this is their fundamental characteristic.\n\n\n\nWhy Rahu & Ketu are Grahas (Despite Having No Physical Body)\nQuestion addressed: If we only count visible bodies, why include Rahu/Ketu?\nAnswer: - They are mathematical points (nodes of the Moon) - They create inverse light/shadow (like closing eyes after seeing sun = black circle) - They represent extremes of the mind: - Rahu = Fully material, maximum desire, wants to consume everything - Ketu = Fully detached, wants nothing, renunciation\nManifestations: - Rahu: Foreigners, different cultures, borders, geographical boundaries, fermentation, alcohol, medicine - Ketu: Outcasts, monks/nuns, spiritual people, those who renounce society - Example given: Man who moved to attic for years, refused all contact = clear Ketu influence\n\n\n\nPLANETARY MOTION (Critical Concept)\n\n\nThree Categories of Motion:\n\nAlways Direct (Forward):\n\nSurya (Sun) & Chandra (Moon) - the Luminaries\nEstablish dharma, predictable, “one foot after another”\n\nAlways Retrograde (Backward):\n\nRahu & Ketu - the Nodes\nMove opposite to all other planets\nCause eclipses when they meet luminaries\n\nCan Be Either (Tara Grahas - 5 Planets):\n\nMangala, Budha, Guru, Shukra, Shani\nWhen direct → behave like Luminaries (normal, predictable)\nWhen retrograde → behave like Nodes (unpredictable, unfulfilled desires)\n\n\n\n\n\nRETROGRADE PLANETS (Vakri)\nNature: Planet behaves like Rahu/Ketu\nCharacteristics: - Not progressing - standing still or pacing - Unfulfilled desire/karma with that planet - Unpredictable, odd behavior - Cannot be trusted (unexpected turns) - May not give results (especially in Prashna/horary)\nStrength Implications: - Retrograde = Extremely strong (like nodes) - Has Cheshtabala (directional strength) - Can cause highest grahana (eclipse power)\nPrashna (Horary) Rules: - If significator is vakri → Won’t happen (or needs 3 attempts) - 3x multiplier: 3x more effort, 3 attempts, or 3 blessings/children\n\n\n\nEIGHT TYPES OF MOTION\n5 Direct Motions: 1-5. (Various speeds of forward movement)\n3 Retrograde Motions: 1. Vakra - Standard retrograde 2. Anu-vakra - Slowing down in retrograde 3. Kutila - Stationary (about to change direction)\nIMPORTANT: Kutila applies to both transitions: - Direct → Retrograde - Retrograde → Direct\n\n\n\nWHEN DO PLANETS GO RETROGRADE?\nOuter Planets (Mars, Jupiter, Saturn):\nExercise given: Draw blank chart, place Jupiter on Lagna\n\n120° from Sun (5th or 9th house) = Kutila (Stationary)\n\n5th house = Just entering retrograde\n9th house = Just finishing retrograde\n\n180° from Sun (7th house) = Highest retrograde motion\n6th house = Vakra (Mars nature)\n8th house = Anu-vakra (Rahu nature)\n4th/10th houses = Direct motion range\n\nInner Planets (Mercury, Venus): - Requires deep astronomical study (Surya Siddhanta) - Not explained in basic course\n\n\n\nCHART EXAMPLE: Pandit Sanjay Rath\nJupiter: Sun in 5th from Jupiter → Jupiter stationary (velocity = 7, very low)\nSaturn: Opposite Sun (7th house) → Highest retrograde (velocity = -223%)\nVelocity Interpretation: - Minus (-) = Retrograde - Close to 0 = Stationary - High positive = Fast direct motion - High negative = Fast retrograde (double speed)\nNote: No exact ranges given for motion types - must observe velocity values\n\n\n\nDO WE MOVE RETROGRADE PLANETS IN THE CHART?\nNO! Planet stays where it is.\nExample: Retrograde boyfriend still behaves oddly, but he’s still your boyfriend in the same place.\nWhat changes: - Planet gets nature of nodes - Can cancel exaltation/debilitation (taught in next lesson) - Creates yogas from its actual position\n\n\n\nNAKSHATRA vs RASHI (Critical Distinction)\nQuestion: Why do grahas show different colors in nakshatra vs rashi?\nAnswer - The Three Lokas:\n\nBhuloka (Earth) - Where we are\n\nRashis = All material resources, physical interactions\n\nBhuvarloka (Solar System) - Above us\n\nGrahas = Moving planets, casting shadows\n\nSvargaloka (Sky) - Above that\n\nNakshatras = Fixed stars, mental/emotional plane, devatas\n\n\nHow Grahas Work: - Grahas move through nakshatras (truth) - Cast shadow on both nakshatras AND rashis - Bind nakshatra significations with rashi significations\nNakshatras = Your thoughts, emotions, ideas (lunar, night concept) - Where graha is = your specific lens of thinking/feeling\nRashis = Material resources, physical things (everything you can see/touch) - Where graha is = where you experience grahana materially\nExample: Two planets in same rashi but different nakshatras: - Working on same project (rashi) - But have different ideas/emotions about it (nakshatra)\nDirection of influence works both ways: 1. Mental → Material: Thoughts manifest as actions 2. Material → Mental: Events cause us to think certain thoughts\n\n\n\nFOUR TYPES OF LAGNA (Briefly Mentioned)\nNot explained in detail (covered in separate lesson), but:\nBirth Time Indicators: - Sun in 1st (Udaya Lagna) = Sunrise birth - Sun in 7th (Asta Lagna) = Sunset birth - Sun in 10th (Akasha Lagna) = Midday birth (~noon) - Sun in 4th (Jala Lagna) = Midnight birth\n\n\n\nSAM-YOGA (Combinations)\nSam-yoga = ALL ways planets can combine (with planets, nakshatras, rashis)\nSam-bandha = Important combinations that have great impact - This is the term we use most - 4 specific types (one being conjunction/yuti)\nSam-yoga Sphuta = Mathematical meeting point of two planets - Calculated even if not in same rashi - Shows where yoga will manifest\nLater: Yoga Sphuta can combine ANY two points (e.g., Lagna lord + 7th lord)\n\n\n\nBHAVISHYA vs ATITA YOGA\nBhavishya Yoga = Yoga that will happen in future - Planets moving toward conjunction\nAtita/Veeta Yoga = Yoga that happened in past - Planets moving apart after conjunction\nWhy calculate Atita Yoga Sphuta? - See where past yoga had impact - Useful for research/deep study of charts - Example: Two people with Chandra-Ketu in 11th - did it happen already or will it happen?\nIf yoga rashi not visible from yoga: - Don’t use seasons (mentioned but corrected) - Use Samukha-rashi (opposite/complementary signs) - Taught in Rashi Drishti module\n\n\n\nGRAHA YUDHA (Planetary War)\nNot taught in detail yet - comes in Year 3\n\n4 types of interpretation\nRelated to Bala (strength) calculations\nJust introduced as concept for now\n\n\n\n\nKEY TERMINOLOGY TO REMEMBER\n\nGraha = Planet that eclipses mind\nVakri = Retrograde\nKutila = Stationary\nSam-bandha = Important combination\nSam-yoga Sphuta = Meeting point of yoga\nBhavishya Yoga = Future yoga\nAtita/Veeta Yoga = Past yoga\nPrasanga = Planet that bridges gap (Year 3/4 topic)\n\n\n\n\nHOMEWORK/NEXT STEPS\n\nStudy planetary motions in your own chart\nObserve velocity values in software\nCheck if any retrograde planets present\nNote which nakshatras vs rashis planets occupy\nPrepare questions for next Graha webinar\n\n\nNext Topics: Exaltation, debilitation, planetary relationships, yogas in detail\nWould you like me to clarify any specific concept from this lesson?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-8",
+    "href": "1_pjc.html#lesson-8",
+    "title": "PJC-1",
+    "section": "Lesson 8",
+    "text": "Lesson 8\n\n\n\n\n\n\nCautionSummary of Lesson 8: Graha Devatas & Karakas\n\n\n\n\n\n\n1. ADI DEVATA MANTRAS (For Auspicious Beginnings)\nPurpose: Worship when starting something new (job, family, project, book)\n\n\n\n\n\n\n\n\nGraha\nAdi Devata\nPurpose\n\n\n\n\nSurya\nVahni (Agni)\nAwakens purpose, takes prayers to devas\n\n\nChandra\nAmbika\n\n\n\nMangala\nSubramanya\nAuspicious form (NOT Skanda/warrior form)\n\n\nBudha\nRama (0-10°), Krishna (10-20°), Vishnu (20-30°)\nChoose based on degree\n\n\nGuru\n\n\n\n\nShukra\n\n\n\n\nShani\n\n\n\n\n\nKey Point: Adi devatas are for awakening/starting activities.\n\n\n\n2. PRATIYADI DEVATA MANTRAS (For Control & Sustenance)\nPurpose: Control, sustain, protect, remove obstacles, complete karmas\n\n\n\n\n\n\n\n\nGraha\nPratiyadi Devata\nNature\n\n\n\n\nSurya\nShiva\nManifested form (with form)\n\n\nChandra\nGauri\n\n\n\nMangala\nSubramanya\nSame as Adi devata\n\n\nBudha\nNarayana\nUnmanifested, above avatars\n\n\nGuru\nSadashiva\nUnmanifested Shiva (no form)\n\n\nShukra\nLakshmi\nSustains relationships, love\n\n\nShani\nKrishna Narayana (Jagannath)\nRelieves sins, without form\n\n\nRahu\nChandi (Durga)\n\n\n\nKetu\nGanesha\n\n\n\n\nKey Difference: - Adi devata = Start things - Pratiyadi devata = Sustain, protect, correct, complete\nWhen to Use: Based on dasha and current need (not all at once!)\n\n\n\n3. FOUR KENDRAS & FOUR LAGNAS\nKendras represent Vishnu’s sustaining power\n\n\n\n\n\n\n\n\n\n\n\nLagna\nSun Position\nTime\nRepresents\nBija (Vaishnava)\nBija (Shaiva)\n\n\n\n\nUdaya (1st)\nSunrise\n~6 AM\nLife beginning, Buddhi (intelligence)\nHare\nOm\n\n\nAsta (7th)\nSunset\n~6 PM\nMoon rises, social life, Shuddhi (cleansing)\nRama\nHreem\n\n\nJala (4th)\nMidnight\n~12 AM\nMoon’s full potential, rest, forgiveness\nKrishna\nKleem\n\n\nAkasha/Svarga (10th)\nMidday\n~12 PM\nSun’s full potential, Siddhi (accomplishment), karma burning\nHare\nShreem\n\n\n\nSAMADHI = Balance of all 4: Buddhi + Shuddhi + Siddhi + Riti\n\n\n\n4. JOB/CAREER ANALYSIS (Practical Application)\n\nSattva Houses (Sustaining Job):\nFrom Akasha Lagna (10th), count 4th, 5th, 9th, 12th houses. These become from your Lagna: 1st, 2nd, 6th, 9th\n\n1st house = Mental ability to do job\n2nd house = Wealth accumulated from job\n6th house = Hard work capacity\n9th house = Knowledge/education for job\n\n\n\nRajas Houses (Job Fluctuations):\nVenus & Mercury signs from Akasha = 3rd, 4th, 11th, 12th from Lagna\n\n3rd = Daily efforts, enterprise\n4th = Love for job\n11th = Income\n12th = Losses from job\n\n\n\nTamas Houses (Job Changes):\nMars & Saturn signs from Akasha = 5th, 7th, 8th, 10th from Lagna\n\n5th = New job appears\n7th = Social responsibilities cause change\n8th = Retirement, weakness\n10th = Progress/ambition\n\n\n\n\n\n5. ABHIJIT RASHI (4th from Sun)\nTwo Devatas: 1. Kubera = Wealth 2. Vishnu = Purity/Enlightenment\nChoice: Do we choose wealth or enlightenment?\nReversal Principle: - 12th from Sun = What we GAIN (nature loses, we gain) - 2nd from Sun = What we LOSE (we give back to nature)\n\n\n\n6. GUNA CHAKRA (Quality of Grahas)\n\nThree Gunas with Borders:\nSATTVA: Surya, Chandra, Guru (sustenance, protection) ↓ RAHU (border - attacks sattva) ↓ RAJAS: Budha (5), Shukra (6) ↓ KETU (border) ↓ TAMAS: Mangala, Shani\nNumbers: Sy=1, Ch=2, Gu=3, Ra=4, Bu=5, Sk=6, Ke=7, Sa=8, Ma=9\n\n\n\n\n7. FOUR GUNA TYPES (Character Classification)\n\n\n\n\n\n\n\n\n\nType\nNature\nGrahas\nCharacter\n\n\n\n\nUttama\nPurest sattva\nSaumya & Punya (Moon, Guru, Venus, Mercury)\nForgiveness, control, calm, humble\n\n\nMadhyama\nKshatriya, harsh but auspicious\nSurya only\nProtects dharma, corrects (like prison)\n\n\nUdashina\nSad, depressed, greedy\nVenus, Mercury (rajas)\nNever satisfied, sorrowful\n\n\nAdhama\nEvil, harsh\nMars, Saturn (tamas)\nLies, lazy, violent\n\n\n\nProblems to Develop: - Tamas (Rakshasa) = Empathy (Daya) - Rajas (Manushya) = Donation (Dana) - Sattva (Deva) = Control senses\nGoal: Become Gunatita (beyond gunas)\n\n\n\n8. SHADRIPUS (6 Enemies) & PANCHAMAKARAS (5 Elements to Avoid)\n\nShadripus (Mars karaka):\n\nKama - Desire\nKrodha - Anger\nLobha - Greed\nMoha - Attachment\nMada - Pride\nMatsarya - Jealousy\n\n\n\nPanchamakaras (Saturn karaka):\n\nMadya - Alcohol/intoxication\nMamsa - Flesh/blood (damages Moon/Shanti)\nMatsarya - Desire for others’ possessions\nMaithuna - Copulation\nMudra - Inappropriate postures/touching\n\nRelationship: Panchamakaras cause Shadripus\n\n\n\n\n9. BHAVA KARAKAS (House Significators)\n\n\n\n\n\n\n\n\nHouse\nKaraka(s)\nWhat They Show\n\n\n\n\n1st\nSurya\nSelf\n\n\n2nd\nGuru (wealth), Budha (speech)\n\n\n\n3rd\nMangala\nCourage, siblings\n\n\n4th\nChandra (mother), Mangala (property)\n\n\n\n5th\nGuru\nChildren, intelligence\n\n\n6th\nShani, Mangala\nEnemies, disease\n\n\n7th\nShukra\nSpouse\n\n\n8th\nShani\nLongevity\n\n\n9th\nSurya, Guru\nFather, dharma\n\n\n10th\nBudha (job ability), Surya (need), Shani (effort), Guru (fruits)\nCareer\n\n\n11th\nGuru\nGains\n\n\n12th\nShani\nLoss, expenses\n\n\n\nTechnique: Place karaka as lagna to see specific relationships - E.g., 4th from Guru = knowledge from mother - 5th from Budha = communication with children\n\n\n\n10. 12 ADITYAS (One for Each Sign)\n\n\n\nSign\nAditya\nSign\nAditya\n\n\n\n\nMesha\nDhata\nTula\nIndra\n\n\nVrishabha\nAryaman\nVrishchika\n(Ali)\n\n\nMithuna\nMitra\nDhanu\nBhaga\n\n\nKarkata\nVaruna\nMakara\nBhaga\n\n\nSimha\nIndra\nKumbha\n\n\n\nKanya\nVivasvan\nMeena\nVishnu\n\n\n\n** above table is incorrect please check the slides **\nTwo Adityas matter: 1. Lagna Aditya = Defines YOU, intellectual functioning (personal) 2. Sun sign Aditya = What you do to the WORLD (external)\nHouse where Sun placed = Area blessed by that Aditya\n\n\n\n11. RASHI DOSHA APPLICATION\nKey Point: Look at placement of dosha-carrying planet\nExample: Mithuna lagna (Lakshmi dosha via Shukra) - Where is Venus placed? = Problematic area - Lordship also matters - Must check if planet is afflicted for bigger problems\nNot all doom! Even afflicted placements in upachaya houses can give benefits.\n\nQuestions to explore: - Which dasha are you in now? - What specific area needs remedy? - Want to understand your chart’s specific dosha?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#lesson-9",
+    "href": "1_pjc.html#lesson-9",
+    "title": "PJC-1",
+    "section": "lesson 9",
+    "text": "lesson 9\n\n\n\n\n\n\nCautionCore Concept: Dig Bala (Directional Strength)\n\n\n\n\n\nWhat it is: Planets gain special strength when placed in specific houses (kendras) from the lagna. Behind each planet in dig bala is a devata (deity) blessing that position.\nKey Principle: Dig bala is a kendra-based concept - planets gain this strength in the 1st, 4th, 7th, or 10th houses from lagna.\n\nThe 10 Directions & Deities\nEach of the 9 grahas plus lagna has a specific dig bala position: - Surya (10th house) - Indra’s blessing: oversight, control, statesmanship - Chandra (4th house) - Vayu’s blessing: speed, pranayama knowledge - Mangal (10th house) - Yama’s blessing: knowledge of borders, longevity, dasha - Budha (1st house) - Kubera’s blessing: knowledge of wealth - Guru (1st house) - Ishana’s blessing: full knowledge, reasoning (viveka) - Shukra (4th house) - Agni’s blessing: vision, ability to envision - Shani (7th house) - Varuna’s blessing: carrying burdens, labor knowledge - Rahu (7th house) - Niriti’s blessing: understanding chaos and its removal - Ketu (10th house) - Ananta’s blessing: meditation, spiritual introspection - Lagna (vargottama) - Mritunjaya blessing: longevity\n\n\nHow Dig Bala Works\nFrom Lagna: The devata gives knowledge to the person - this is a blessing that can be strengthened through remedies\nFrom Arudha Lagna: Shows the physical direction where blessings manifest (useful for relocation advice)\n\n\nImportant Rules\n\nConjunctions: When a dig bala planet conjoins another planet, it spills the blessing onto that planet (like an expensive house raising the value of a neighboring cheap house)\nDispositor is Key: The dispositor can lock or unlock the blessing - check its condition first. If doing remedies, worship the dispositor first, then the dig bala planet.\nZero Dig Bala: Opposite placement shows lack of knowledge in houses ruled by that planet - the person may be capable but unable to apply themselves in those areas\nIndependent of Sign: Dig bala works regardless of whether the planet is exalted, debilitated, or in own sign - these are separate layers of analysis\n\n\n\nPractical Applications\n\nUse dig bala as a remedy tool - it’s a blessing that can be strengthened\nOne strong benefit can lift an entire chart\nFor malefics in kendras, we prefer them weak (unless they’re lagna lord or have dig bala blessing)\nDon’t do all remedies at once - address current dasha issues only\n\n\n\nExamples Given\nAbraham Lincoln: Budha (lagna lord) in 1st house conjunct Surya - Kubera’s wealth blessing manifested through Surya’s statesmanship. Rahu-Mangal in 9th activated through war/law-making but ultimately led to his death (Rahu in marana karaka sthana defeated by Mangal).\nWould you like me to clarify any specific aspect of dig bala?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#the-10-directions-deities",
+    "href": "1_pjc.html#the-10-directions-deities",
+    "title": "PJC-1",
+    "section": "The 10 Directions & Deities",
+    "text": "The 10 Directions & Deities\nEach of the 9 grahas plus lagna has a specific dig bala position: - Surya (10th house) - Indra’s blessing: oversight, control, statesmanship - Chandra (4th house) - Vayu’s blessing: speed, pranayama knowledge - Mangal (10th house) - Yama’s blessing: knowledge of borders, longevity, dasha - Budha (1st house) - Kubera’s blessing: knowledge of wealth - Guru (1st house) - Ishana’s blessing: full knowledge, reasoning (viveka) - Shukra (4th house) - Agni’s blessing: vision, ability to envision - Shani (7th house) - Varuna’s blessing: carrying burdens, labor knowledge - Rahu (7th house) - Niriti’s blessing: understanding chaos and its removal - Ketu (10th house) - Ananta’s blessing: meditation, spiritual introspection - Lagna (vargottama) - Mritunjaya blessing: longevity",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#how-dig-bala-works",
+    "href": "1_pjc.html#how-dig-bala-works",
+    "title": "PJC-1",
+    "section": "How Dig Bala Works",
+    "text": "How Dig Bala Works\nFrom Lagna: The devata gives knowledge to the person - this is a blessing that can be strengthened through remedies\nFrom Arudha Lagna: Shows the physical direction where blessings manifest (useful for relocation advice)",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#important-rules",
+    "href": "1_pjc.html#important-rules",
+    "title": "PJC-1",
+    "section": "Important Rules",
+    "text": "Important Rules\n\nConjunctions: When a dig bala planet conjoins another planet, it spills the blessing onto that planet (like an expensive house raising the value of a neighboring cheap house)\nDispositor is Key: The dispositor can lock or unlock the blessing - check its condition first. If doing remedies, worship the dispositor first, then the dig bala planet.\nZero Dig Bala: Opposite placement shows lack of knowledge in houses ruled by that planet - the person may be capable but unable to apply themselves in those areas\nIndependent of Sign: Dig bala works regardless of whether the planet is exalted, debilitated, or in own sign - these are separate layers of analysis",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#practical-applications",
+    "href": "1_pjc.html#practical-applications",
+    "title": "PJC-1",
+    "section": "Practical Applications",
+    "text": "Practical Applications\n\nUse dig bala as a remedy tool - it’s a blessing that can be strengthened\nOne strong benefit can lift an entire chart\nFor malefics in kendras, we prefer them weak (unless they’re lagna lord or have dig bala blessing)\nDon’t do all remedies at once - address current dasha issues only",
+    "crumbs": [
+      "PJC-1"
+    ]
+  },
+  {
+    "objectID": "1_pjc.html#examples-given",
+    "href": "1_pjc.html#examples-given",
+    "title": "PJC-1",
+    "section": "Examples Given",
+    "text": "Examples Given\nAbraham Lincoln: Budha (lagna lord) in 1st house conjunct Surya - Kubera’s wealth blessing manifested through Surya’s statesmanship. Rahu-Mangal in 9th activated through war/law-making but ultimately led to his death (Rahu in marana karaka sthana defeated by Mangal).\nWould you like me to clarify any specific aspect of dig bala?",
+    "crumbs": [
+      "PJC-1"
+    ]
+  }
+]
