@@ -1,0 +1,2978 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Prashanth">
+<meta name="dcterms.date" content="2025-01-17">
+
+<title>PJC-1 – myblog</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-ddad72783ba637611f4538022d4fbf12.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="PJC-1 – myblog">
+<meta property="og:image" content="https://prashanthnayak.github.io/myblog/1_pjc_files/figure-html/cell-3-output-1.png">
+<meta property="og:site_name" content="myblog">
+<meta property="og:image:height" content="531">
+<meta property="og:image:width" content="687">
+<meta name="twitter:title" content="PJC-1 – myblog">
+<meta name="twitter:image" content="https://prashanthnayak.github.io/myblog/1_pjc_files/figure-html/cell-3-output-1.png">
+<meta name="twitter:image-height" content="531">
+<meta name="twitter:image-width" content="687">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">myblog</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./1_pjc.html">PJC-1</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">nbdev</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./core.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">core</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1_pjc.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">PJC-1</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lesson-1" id="toc-lesson-1" class="nav-link active" data-scroll-target="#lesson-1">Lesson 1</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">slides</a></li>
+  <li><a href="#lesson-2" id="toc-lesson-2" class="nav-link" data-scroll-target="#lesson-2">Lesson 2</a></li>
+  <li><a href="#lesson-3" id="toc-lesson-3" class="nav-link" data-scroll-target="#lesson-3">Lesson 3</a></li>
+  <li><a href="#lesson-4" id="toc-lesson-4" class="nav-link" data-scroll-target="#lesson-4">Lesson 4</a></li>
+  <li><a href="#lesson-5" id="toc-lesson-5" class="nav-link" data-scroll-target="#lesson-5">Lesson 5</a></li>
+  <li><a href="#lesson-6" id="toc-lesson-6" class="nav-link" data-scroll-target="#lesson-6">Lesson 6</a></li>
+  <li><a href="#lesson-7" id="toc-lesson-7" class="nav-link" data-scroll-target="#lesson-7">Lesson 7</a></li>
+  <li><a href="#lesson-8" id="toc-lesson-8" class="nav-link" data-scroll-target="#lesson-8">Lesson 8</a></li>
+  <li><a href="#lesson-9" id="toc-lesson-9" class="nav-link" data-scroll-target="#lesson-9">lesson 9</a></li>
+  <li><a href="#lesson-10" id="toc-lesson-10" class="nav-link" data-scroll-target="#lesson-10">lesson 10</a></li>
+  <li><a href="#lesson-11" id="toc-lesson-11" class="nav-link" data-scroll-target="#lesson-11">lesson 11</a></li>
+  <li><a href="#lesson-12" id="toc-lesson-12" class="nav-link" data-scroll-target="#lesson-12">Lesson 12</a></li>
+  <li><a href="#lesson-13" id="toc-lesson-13" class="nav-link" data-scroll-target="#lesson-13">Lesson 13</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/prashanthnayak/myblog/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="1_pjc.md"><i class="bi bi-file-code"></i>CommonMark</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">PJC-1</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prashanth </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 17, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->
+<section id="lesson-1" class="level3">
+<h3 class="anchored" data-anchor-id="lesson-1">Lesson 1</h3>
+<hr>
+</section>
+<section id="slides" class="level3">
+<h3 class="anchored" data-anchor-id="slides">slides</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> slides(</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    n</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>):</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Lesson 1 summary
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Class Structure &amp; Logistics:</strong> - All webinars will be recorded and available within 24 hours for those who can’t attend live - Students get 2 years access to course materials (1 year of active study + 1 additional year) - Two live webinars per month (1 hour each) with mentors to summarize lessons, answer questions, and provide examples - Telegram group open for daily questions starting immediately - Private emails available for personal queries</p>
+<p><strong>Guru Mantra Practice:</strong> - Each class begins with “Om Guruve Namaha” repeated 12 times - Thursdays are preferred - Idea is placing Guru on lagna - This places Guru in each of the 12 rashis/houses symbolically - Ensures blessings for proper learning and understanding</p>
+<p><strong>Parampara Mantra (Main Practice):</strong> - The mantra is: <strong>Hare Rama Krishna</strong> (Janaka Shadakshari Mantra - 6 syllables) - Comes from Janaka Rishi, passed through Shri Achyutananda tradition - <strong>Daily practice:</strong> First thing upon waking, before feet touch ground - <strong>Recommended:</strong> 3 rounds of 108 repetitions (324 total) - Can be done mentally or with mala/finger counting - Maintains satva, continuous learning connection, and parampara flow</p>
+<p><strong>Study Recommendations:</strong> - Keep a special notebook as a Sanskrit dictionary for terminology - Keep a separate notebook for all mantras (write mantras in red pen - blessing of Ganesha) - Study preparatory lessons (Arambha) before official course starts in January - Complete homework for self-testing (not graded, but highly encouraged)</p>
+<p><strong>Software &amp; Tools:</strong> - Recommended: Jagannatha Hora (free) or Shri Jyoti Star (paid) - iPhone app: “Jyotish” (though no perfect mobile solution exists yet)</p>
+<p><strong>Course Philosophy:</strong> - Self-paced online course based on Pandit Sanjay Rath’s live teachings - Focus on building solid foundations slowly and thoroughly (Saturn/Parashara energy) - Knowledge grows in depth and breadth over time - Students learn from each other’s questions</p>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-2" class="level3">
+<h3 class="anchored">Lesson 2</h3>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 2:
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="core-philosophy" class="level2">
+<h2 class="anchored" data-anchor-id="core-philosophy">Core Philosophy</h2>
+<ul>
+<li><strong>Without spiritual discipline, learning Jyotish is difficult</strong> - understanding all charts (past, present, future) requires spiritual support</li>
+<li>Parashara Jyotish is deeply connected to spirituality (Vishnu Purana, Rigveda)</li>
+<li><strong>Appreciation of Guru</strong> is the first and most important step</li>
+</ul>
+</section>
+<section id="key-practices-introduced" class="level2">
+<h2 class="anchored" data-anchor-id="key-practices-introduced">Key Practices Introduced</h2>
+<section id="guru-vandana" class="level3">
+<h3 class="anchored" data-anchor-id="guru-vandana">1. <strong>Guru Vandana</strong></h3>
+<ul>
+<li>Prayer/worship of the Guru (13 stanzas)</li>
+<li>Done first thing after morning bath</li>
+<li>Can be recited in one sitting as daily Guru prayer</li>
+<li>Traditionally sung at initiations in the parampara</li>
+</ul>
+</section>
+<section id="pancha-devatas-five-deities" class="level3">
+<h3 class="anchored" data-anchor-id="pancha-devatas-five-deities">2. <strong>Pancha Devatas (Five Deities)</strong></h3>
+<p>These represent the five tattvas and are worshipped in order:</p>
+<ol type="1">
+<li><strong>Ganesha</strong> (Prithvi/Earth) - Must be worshipped first; sits in Muladhara chakra</li>
+<li><strong>Surya</strong> (Agni/Fire) - Establishes energy levels</li>
+<li><strong>Vishnu</strong> (Akasha/Space) - Grants purity and connection</li>
+<li><strong>Devi</strong> (Jala/Water) - Brings sustenance and empathy</li>
+<li><strong>Shiva</strong> (Vayu/Air) - Stops storms in life</li>
+</ol>
+<p><strong>Important</strong>: Any one of these five can lead to moksha if worshipped properly.</p>
+</section>
+</section>
+<section id="main-sadhanas-for-pjc-year-1" class="level2">
+<h2 class="anchored" data-anchor-id="main-sadhanas-for-pjc-year-1">Main Sadhanas for PJC Year 1</h2>
+<section id="ganesha-sadhana-primary---1-year" class="level3">
+<h3 class="anchored" data-anchor-id="ganesha-sadhana-primary---1-year"><strong>Ganesha Sadhana</strong> (Primary - 1 Year)</h3>
+<p><strong>Setup:</strong> - Draw Swastika mandala with red powder/paste - Place Ganesha picture at eye level (looking slightly up = sattvic) - Light ghee lamp (represents your home - keep it clean and personal) - Face East or Northeast (or strongest direction in Ashtakavarga of Sun)</p>
+<p><strong>Mantra Selection:</strong> - Use <strong>one of 12 Ganesha names based on YOUR LAGNA</strong> (from Sri Narada’s list) - Example: Sagittarius Lagna = “Om Soham balachandraya svaha”</p>
+<p><strong>Practice:</strong> - Minimum: <strong>108 times daily for 1 year</strong> - Rigorous: <strong>15 malas daily</strong> (22 malas on Chaturthi) - Start on <strong>Chaturthi</strong> (Ganesha’s tithi) - Keep pen and paper near Ganesha during sadhana (use that pen for Jyotish notes later)</p>
+<p><strong>Purpose:</strong> Strengthens Lagna, Jupiter, and Mercury → supports learning and Guru-Shishya connection</p>
+</section>
+<section id="narasimha-sadhana-40-days" class="level3">
+<h3 class="anchored" data-anchor-id="narasimha-sadhana-40-days"><strong>Narasimha Sadhana</strong> (40 Days)</h3>
+<p><strong>Preparation:</strong> 1. Recite Shanti Mantra (from Rigveda) 2. <strong>Bija Pranayama</strong> (10 times): done with Pranayama - Inhale: “Om” - Hold: “Hreem” - Exhale: “Shraum” - Use both nostrils</p>
+<p><strong>Main Mantra:</strong> check slide</p>
+<ul>
+<li><strong>1,008 times daily for 40 days</strong></li>
+<li>Start on <strong>Tuesday</strong></li>
+<li>Can continue after 40 days</li>
+</ul>
+<p><strong>Purpose:</strong> - Connected to Mangala (Mars) - gives strength (satva) - Removes the 6 Ripus (enemies): Moha, Kama, Lobha, Matsarya, Krodha, Mada - Purifies luminaries, nakshatras, and agni - Strengthens mind for learning negative karmas in Jyotish</p>
+</section>
+<section id="muladhara-chakra-sadhana-optional-but-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="muladhara-chakra-sadhana-optional-but-recommended"><strong>Muladhara Chakra Sadhana</strong> (Optional but Recommended)</h3>
+<ul>
+<li>Light lamp with “Sri Ram Jai Ram Jai Jai Ram”</li>
+<li>Drink sweet water (jaggery/brown sugar, NOT white sugar) with “Om Ramachandraya Namaha”</li>
+<li>Narayana Kavacha procedure</li>
+<li>Mantra: “Om Hreem Kshraum Hum Phat” - <strong>108 times</strong></li>
+<li><strong>40 days</strong></li>
+</ul>
+<p><strong>Purpose:</strong> Cleanses first three chakras (Muladhara, Swadhisthana, Manipura) related to basic instincts and manifested universe</p>
+</section>
+</section>
+<section id="practical-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="practical-guidelines">Practical Guidelines</h2>
+<p><strong>Mala/Rosary:</strong> - Rudraksha recommended for Ganesha - 54 beads preferred (108 also fine) - Don’t touch with index finger (tarjani) - Once dedicated to sadhana, don’t use for other purposes</p>
+<p><strong>Diet:</strong> Vegetarian recommended but not mandatory for these sadhanas</p>
+<p><strong>Timing:</strong> - Parampara Mantra (Hare Rama Krishna): First thing upon waking - Other sadhanas: After bath, in the morning</p>
+<p><strong>Direction:</strong> East or Northeast best (or use Ashtakavarga of Sun for personal direction)</p>
+<p>Would you like me to clarify any specific aspect of these practices?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="49d6a058" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-3-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-3-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-3" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-3">Lesson 3</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 3 Transcript
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="opening-structure" class="level2">
+<h2 class="anchored" data-anchor-id="opening-structure">Opening &amp; Structure</h2>
+<ul>
+<li><strong>Started with Guru Mantra</strong> (Om Guruve Namaha) repeated 12 times</li>
+<li>Course officially begins on <strong>Makara Sankranti</strong> (Sun entering Capricorn) on a <strong>Thursday</strong> - both auspicious for spiritual learning</li>
+<li>Future webinars will be held <strong>Sundays at 11 AM CET</strong> during Guru Hora</li>
+<li>Calendar will be shared for planning ahead</li>
+</ul>
+</section>
+<section id="course-logistics-guidelines" class="level2">
+<h2 class="anchored" data-anchor-id="course-logistics-guidelines">Course Logistics &amp; Guidelines</h2>
+<p><strong>Telegram Group Usage:</strong> - Follow the syllabus/modules systematically - Keep questions focused on current module being studied - Ask intentional, specific questions (not open-ended “tell us more”) - Telegram is just a tool - take your own notes as primary resource - Mentors monitor discussions and will intervene if needed</p>
+<p><strong>Learning Approach:</strong> - Self-paced online course with mentor support - Guruji’s teaching method: Start with the NAME → meaning → application - Not spoon-feeding - some questions left for self-research - Learn from each other’s questions and discussions</p>
+<p><strong>Materials:</strong> - Adobe Flash issue being resolved - patience requested - All webinars recorded on private YouTube channel (permanent access) - 2-year access to PJC Year 1 materials (extendable)</p>
+</section>
+<section id="main-teaching-what-is-jyotish" class="level2">
+<h2 class="anchored" data-anchor-id="main-teaching-what-is-jyotish">Main Teaching: What is Jyotish?</h2>
+<p><strong>Jyotish = Study of 33 Devas (not just planets/signs)</strong></p>
+<section id="ashtavasu-8-vassuslights" class="level3">
+<h3 class="anchored" data-anchor-id="ashtavasu-8-vassuslights">1. <strong>Ashtavasu (8 Vassus/Lights)</strong></h3>
+<ul>
+<li><strong>Sun &amp; Moon</strong> - Original light givers (luminaries)</li>
+<li><strong>5 Tatwa Planets</strong> - Give knowledge through their physical nature:
+<ul>
+<li><strong>Mars</strong> (Agni) - Fire, energy, engineering</li>
+<li><strong>Mercury</strong> (Prithvi) - Earth, solid state</li>
+<li><strong>Jupiter</strong> (Akasha) - Space, magnetism, connection</li>
+<li><strong>Venus</strong> (Jala) - Water, liquid state</li>
+<li><strong>Saturn</strong> (Vayu) - Air, movement, breath, longevity</li>
+</ul></li>
+<li><strong>Nakshatras</strong> - Mental desires and emotional states</li>
+</ul>
+</section>
+<section id="dvadasha-adityas-12-adityas" class="level3">
+<h3 class="anchored" data-anchor-id="dvadasha-adityas-12-adityas">2. <strong>Dvadasha Adityas (12 Adityas)</strong></h3>
+<ul>
+<li>The 12 months/signs representing <strong>all material resources</strong></li>
+<li>Sun’s movement creates 30-degree portions (rashis)</li>
+<li>Each sign = time period + space</li>
+<li><strong>Vishnu Aditya</strong> youngest</li>
+</ul>
+</section>
+<section id="ekadasha-rudra-11-rudras" class="level3">
+<h3 class="anchored" data-anchor-id="ekadasha-rudra-11-rudras">3. <strong>Ekadasha Rudra (11 Rudras)</strong></h3>
+<ul>
+<li>Address <strong>destruction energies</strong> in horoscope</li>
+<li>10 hold prana (life force) in body</li>
+<li>11th relates to individual soul (calculated from Atmakaraka)</li>
+<li>Connected to <strong>Rudra Bhavas</strong> (houses that can end life)</li>
+</ul>
+</section>
+<section id="indra-prajapati-2" class="level3">
+<h3 class="anchored" data-anchor-id="indra-prajapati-2">4. <strong>Indra &amp; Prajapati (2)</strong></h3>
+<ul>
+<li><strong>Prajapati</strong> = Lagna/1st house (our creation/birth)</li>
+<li><strong>Indra</strong> = 10th house (throne, control of senses, karma)</li>
+</ul>
+</section>
+</section>
+<section id="key-concepts-clarified" class="level2">
+<h2 class="anchored" data-anchor-id="key-concepts-clarified">Key Concepts Clarified</h2>
+<p><strong>Rashis vs Bhavas:</strong> - <strong>Rashis</strong> = Material resources, physical quantities (“heap”) - <strong>Bhavas</strong> = Our thoughts/perceptions about life aspects</p>
+<p><strong>Important Axes:</strong> - <strong>1st-7th</strong>: Birth-Death, Me-Others (horizontal, eye-level) - <strong>4th-10th</strong>: Midnight-Noon, Lowest-Highest point (vertical)</p>
+<p><strong>Three Material Worlds:</strong> - <strong>Bhuloka</strong> - Earth (where we are) - <strong>Bhuvarloka</strong> - Solar system (Sun, planets) - <strong>Svargaloka</strong> - Sky (nakshatras, constellations)</p>
+</section>
+</div>
+</div>
+</div>
+<div id="f4653430" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-4-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-4-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-4-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-4-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-4-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-4-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-4" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-4">Lesson 4</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 4: Panchanga (Five Limbs of Time)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="opening-context" class="level2">
+<h2 class="anchored" data-anchor-id="opening-context">Opening Context</h2>
+<ul>
+<li>This is part of the <strong>Aramba (preparatory) portion</strong> of PJC Year 1</li>
+<li>Aramba introduces many concepts that students will revisit throughout the year</li>
+<li>Focus is on understanding basic concepts before diving deeper</li>
+</ul>
+</section>
+<section id="what-is-panchanga" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-panchanga">What is Panchanga?</h2>
+<p><strong>Pancha</strong> = Five, <strong>Anga</strong> = Limbs</p>
+<p>The five fundamental divisions of time that form the <strong>foundation of any horoscope</strong>. Panchanga must be examined <strong>before</strong> looking at planetary positions, as it shows the <strong>quality of time</strong> for that birth.</p>
+<section id="the-five-limbs" class="level3">
+<h3 class="anchored" data-anchor-id="the-five-limbs">The Five Limbs:</h3>
+<ol type="1">
+<li><strong>Vara</strong> (Day) - Agni Tatva</li>
+<li><strong>Tithi</strong> (Lunar day) - Jala Tatva<br>
+</li>
+<li><strong>Karana</strong> (Half-tithi) - Prithvi Tatva</li>
+<li><strong>Nakshatra</strong> (Lunar mansion) - Vayu Tatva</li>
+<li><strong>Yoga</strong> (Sun-Moon combination) - Akasha Tatva</li>
+</ol>
+</section>
+</section>
+<section id="benefits-of-learning-panchanga" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-of-learning-panchanga">Benefits of Learning Panchanga</h2>
+<ul>
+<li><strong>Vara</strong> - Prolongs life</li>
+<li><strong>Tithi</strong> - Brings prosperity</li>
+<li><strong>Karana</strong> - Gives success in all tasks</li>
+<li><strong>Nakshatra</strong> - Removes sin</li>
+<li><strong>Yoga</strong> - Immunity from disease</li>
+</ul>
+</section>
+<section id="vara-the-day" class="level2">
+<h2 class="anchored" data-anchor-id="vara-the-day">1. VARA (The Day)</h2>
+<p><strong>Connection</strong>: Agni (fire), energy levels, physical health</p>
+<p><strong>Calculation</strong>: Sunrise to next sunrise</p>
+<p><strong>Seven Varas</strong>: Ravivara (Sunday), Somavara (Monday), Mangalavara (Tuesday), Buddhavara (Wednesday), Guruvara (Thursday), Shukravara (Friday), Shanivara (Saturday)</p>
+<p><strong>Analysis</strong>: - Check <strong>Varesha</strong> (lord of the day) placement from <strong>Lagna</strong> - Also check Varesha placement from <strong>Surya</strong></p>
+<p><strong>Example Given</strong>: Franklin D. Roosevelt - Born Monday (Varesha = Moon) - Moon in 10th house conjunct Mars - Moon has <strong>zero Digbala</strong> (directional strength) in 10th - Moon-Mars = Gandanta (fire-water conflict) - Moon in 6th from Sun (enemy position) - Result: Polio (health issues related to movement on 4th-10th axis)</p>
+<section id="vara-chakra-concepts" class="level3">
+<h3 class="anchored" data-anchor-id="vara-chakra-concepts">Vara Chakra Concepts:</h3>
+<ul>
+<li><strong>6th graha</strong> = enemy (Shatru)</li>
+<li><strong>8th graha</strong> = eclipse (Grahana) - blocks manifestation</li>
+</ul>
+</section>
+</section>
+<section id="tithi-lunar-day" class="level2">
+<h2 class="anchored" data-anchor-id="tithi-lunar-day">2. TITHI (Lunar Day)</h2>
+<p><strong>Connection</strong>: Jala Tatva, relationships, emotional content, interactions</p>
+<p><strong>Calculation</strong>: Sun-Moon relationship; 1 tithi = 12 degrees of zodiac</p>
+<p><strong>30 Tithis total</strong>: 15 in Krishna Paksha (waning), 15 in Shukla Paksha (waxing)</p>
+<p><strong>Eight Lords</strong>: Surya, Chandra, Mangala, Budha, Guru, Shukra, Shani, Rahu (Ketu has no lordship)</p>
+<p><strong>Analysis</strong>: Check Tithi lord placement from <strong>4th house</strong></p>
+<section id="problematic-tithis" class="level3">
+<h3 class="anchored" data-anchor-id="problematic-tithis">Problematic Tithis:</h3>
+<p><strong>Rikta Tithis</strong> (4th, 9th, 14th) - Most problematic: - Too much emotion, self-centered - <strong>Chaturthi</strong> - Ganesha (deity) - <strong>Navami</strong> - Durga (deity) - <strong>Chaturdashi</strong> - Shiva (deity)</p>
+<p><strong>Other Doshas</strong>: - <strong>Ekadashi</strong> (11th) - Addiction/anger issues (Mars/Agni) → fasting advised - <strong>Trayodashi</strong> (13th) - Wealth problems - <strong>Krishna Chaturdashi</strong> &amp; <strong>Shukla Pratipada</strong> - Serious relationship issues (related to Soma’s sin with Tara)</p>
+<p><strong>Example Given</strong>: Marilyn Monroe - Tithi lord = Venus - Venus in 10th house in Aries (enemy sign) - Zero Digbala - Had relationships but they were problematic</p>
+</section>
+</section>
+<section id="dig-chakra-directional-strength" class="level2">
+<h2 class="anchored" data-anchor-id="dig-chakra-directional-strength">3. DIG CHAKRA (Directional Strength)</h2>
+<p>Eight directions where grahas have <strong>full potential</strong>:</p>
+<ul>
+<li><strong>East</strong> (Indra) - <strong>Surya</strong> - Self-realization</li>
+<li><strong>Southeast</strong> (Agni) - <strong>Shukra</strong> - Details, art</li>
+<li><strong>South</strong> (Yama) - <strong>Mangala</strong> - Warrior energy</li>
+<li><strong>Southwest</strong> (Niriti) - <strong>Rahu</strong> - Chaos</li>
+<li><strong>West</strong> (Varuna) - <strong>Shani</strong> - Detachment</li>
+<li><strong>Northwest</strong> (Vayu) - <strong>Chandra</strong> - Movement</li>
+<li><strong>North</strong> (Kubera) - <strong>Budha</strong> - Wealth, profession</li>
+<li><strong>Northeast</strong> (Ishana) - <strong>Guru</strong> - Knowledge</li>
+</ul>
+<p>Plus: <strong>Upward</strong> (Ketu/Ananta - Moksha), <strong>Downward</strong> (Lagna/Brahma - Rebirth)</p>
+</section>
+<section id="kala-chakra-timeblockage-wheel" class="level2">
+<h2 class="anchored" data-anchor-id="kala-chakra-timeblockage-wheel">4. KALA CHAKRA (Time/Blockage Wheel)</h2>
+<p>Shows which grahas <strong>block</strong> each direction:</p>
+<ul>
+<li>Mangala blocks Shukra (Agni corner)</li>
+<li>Guru blocks Mangala (Yama corner)</li>
+<li>Budha blocks Rahu (Niriti corner)</li>
+<li>Shukra blocks Shani (Varuna corner)</li>
+<li>Chandra blocks Budha (Kubera corner)</li>
+<li>Rahu blocks Guru (Ishana corner)</li>
+<li>Ketu blocks Surya (Indra corner)</li>
+</ul>
+<p><strong>Key Point</strong>: These are <strong>pairs</strong> that create either debate (Sattvic) or war (Tamasic)</p>
+<hr>
+</section>
+<section id="important-reminders" class="level2">
+<h2 class="anchored" data-anchor-id="important-reminders">Important Reminders:</h2>
+<ul>
+<li>Panchanga is the <strong>first layer</strong> - more factors will be added</li>
+<li>Cannot make final judgments from Panchanga alone</li>
+<li>Must learn grahas, rashis, bhavas before complete analysis</li>
+<li>Return to Aramba concepts throughout the year as understanding deepens</li>
+</ul>
+<p>Would you like me to clarify any specific aspect of Panchanga?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="2746ad13" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-9.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-10.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-11.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-12.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-6-output-13.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-5" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-5">Lesson 5</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 5: Rashi Swarupa (Nature of Signs)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="opening-context-housekeeping" class="level2">
+<h2 class="anchored" data-anchor-id="opening-context-housekeeping">Opening Context &amp; Housekeeping</h2>
+<p><strong>Learning Process:</strong> - Jyotish learning is <strong>spiral</strong> - same topics revisited from different angles/levels - Currently using “microscope” approach (detailed) vs “telescope” (broad picture from Aramba) - Learning Jyotish is like performing Brahma Yagya - devas work on you as you learn - Don’t fear Panchanga doshas you discover - you’re only seeing small details, not full picture</p>
+<p><strong>Important Clarifications:</strong> - <strong>Do NOT worship Sanjay Rath</strong> or put his picture on altar - He is <strong>Shiksha Guru</strong> (5th house - teacher of subject) - NOT Diksha Guru (9th house - spiritual guide who takes responsibility for soul)</p>
+<hr>
+</section>
+<section id="rashi-names-parashara-specific" class="level2">
+<h2 class="anchored" data-anchor-id="rashi-names-parashara-specific">RASHI NAMES (Parashara-Specific)</h2>
+<p><strong>Names that differ from popular usage:</strong> - <strong>Mesha</strong> (Aries) - Ram - <strong>Vrishabha/Vrisha</strong> (Taurus) - Bull - <strong>Mithuna</strong> (Gemini) - Couple - <strong>Karkata</strong> (Cancer) - Crab - <strong>Simha</strong> (Leo) - Lion - <strong>Kumari</strong> (Virgo) - <strong>Young virgin girl</strong> (not just Kanya) - <strong>Tula</strong> (Libra) - Scale/Balance - <strong>Ali</strong> (Scorpio) - NOT Vrishchika; means <strong>blessing, bridge, or exalted</strong> (refers to semen storage) - <strong>Dhanu</strong> (Sagittarius) - Bow/Archer - <strong>Makara/Nakra</strong> (Capricorn) - <strong>Reversal of hell</strong> (karma determines direction) - <strong>Kumbha</strong> (Aquarius) - Pot/Water bearer - <strong>Meena</strong> (Pisces) - Fish</p>
+<hr>
+</section>
+<section id="brahma-dosha-creation-flaw" class="level2">
+<h2 class="anchored" data-anchor-id="brahma-dosha-creation-flaw">BRAHMA DOSHA (Creation Flaw)</h2>
+<p><strong>Key Principle:</strong> Rashis with <strong>unclear/multiple symbols</strong> carry Brahma Dosha</p>
+<section id="rashis-without-dosha" class="level3">
+<h3 class="anchored" data-anchor-id="rashis-without-dosha"><strong>5 Rashis WITHOUT Dosha:</strong></h3>
+<p>Clear, single-element symbols: 1. <strong>Mesha</strong> - Ram (clear) 2. <strong>Vrishabha</strong> - Bull (clear) 3. <strong>Karkata</strong> - Crab (clear) 4. <strong>Simha</strong> - Lion (clear) 5. <strong>Vrishchika/Ali</strong> - Scorpion (clear)</p>
+</section>
+<section id="rashis-with-dosha" class="level3">
+<h3 class="anchored" data-anchor-id="rashis-with-dosha"><strong>7 Rashis WITH Dosha:</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 34%">
+<col style="width: 26%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rashi</th>
+<th>Planet Showing Dosha</th>
+<th>Devata Angered</th>
+<th>Nature of Dosha</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Meena</strong></td>
+<td>Surya (Sun)</td>
+<td><strong>Agni</strong></td>
+<td>Fish cursed to never see sunlight; <strong>Remedy: Pranayama</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Kumbha</strong></td>
+<td>Chandra (Moon)</td>
+<td><strong>Jala</strong></td>
+<td>Water gets spoiled/fermented in pot; emotions problematic</td>
+</tr>
+<tr class="odd">
+<td><strong>Makara</strong></td>
+<td>Guru (Jupiter)</td>
+<td><strong>Indra</strong></td>
+<td>Loss of senses/direction; alcohol issues</td>
+</tr>
+<tr class="even">
+<td><strong>Dhanu</strong></td>
+<td>Budha (Mercury)</td>
+<td><strong>Vishnu</strong></td>
+<td>Battlefield; right vs wrong obsession; <strong>righteous anger</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Tula</strong></td>
+<td>Mangala (Mars)</td>
+<td><strong>Skanda</strong></td>
+<td>War vs prosperity conflict; “all fair in love and war”</td>
+</tr>
+<tr class="even">
+<td><strong>Kanya</strong></td>
+<td>Shani (Saturn)</td>
+<td><strong>Brahma</strong></td>
+<td>Purity vs impurity; obsession with cleanliness</td>
+</tr>
+<tr class="odd">
+<td><strong>Mithuna</strong></td>
+<td>Shukra (Venus)</td>
+<td><strong>Lakshmi</strong></td>
+<td>Boy + girl + club + instrument; <strong>dominant Bhuloka dosha</strong>; relationship/emotion issues</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Usage:</strong> Check dosha planet in chart when analyzing that ascendant - may not be as helpful as expected</p>
+<hr>
+</section>
+</section>
+<section id="rashi-colors" class="level2">
+<h2 class="anchored" data-anchor-id="rashi-colors">RASHI COLORS</h2>
+<ul>
+<li><strong>Mesha</strong> - Blood red/royal red</li>
+<li><strong>Vrishabha</strong> - Milk white</li>
+<li><strong>Mithuna</strong> - Green (all shades)</li>
+<li><strong>Karkata</strong> - White with red tinge (light pink)</li>
+<li><strong>Simha</strong> - White with yellow tinge (off-white/sand)</li>
+<li><strong>Kanya</strong> - <strong>Gray</strong> (intestines; discernment)</li>
+<li><strong>Tula</strong> - <strong>Black</strong></li>
+<li><strong>Vrishchika</strong> - Light yellow (brownish due to Ketu)</li>
+<li><strong>Dhanu</strong> - Dark yellow/turmeric/golden</li>
+<li><strong>Makara</strong> - <strong>Dark blue</strong> (industrial)</li>
+<li><strong>Kumbha</strong> - <strong>Purple</strong> (Rahu; fermentation/poison/medicine)</li>
+<li><strong>Meena</strong> - Light blue (sky blue)</li>
+</ul>
+<hr>
+</section>
+<section id="body-parts-kalapurusha" class="level2">
+<h2 class="anchored" data-anchor-id="body-parts-kalapurusha">BODY PARTS (Kalapurusha)</h2>
+<p>Natural zodiac = God’s body template: 1. Mesha - <strong>Head</strong> 2. Vrishabha - <strong>Face &amp; neck</strong> 3. Mithuna - <strong>Arms &amp; shoulders</strong> 4. Karkata - <strong>Chest, heart, breast</strong> 5. Simha - <strong>Stomach &amp; liver</strong> 6. Kanya - <strong>Intestines, navel</strong> 7. Tula - <strong>Below navel, kidneys</strong> 8. <strong>Vrishchika - Genitalia</strong> (HORIZONTAL - Ketu reverses) 9. Dhanu - <strong>Thighs</strong> 10. Makara - <strong>Knees</strong> 11. Kumbha - <strong>Calves</strong> 12. <strong>Meena - Feet</strong> (HORIZONTAL - Ketu reverses)</p>
+<p><strong>Exception:</strong> Ketu-ruled parts are horizontal, not vertical</p>
+<hr>
+</section>
+<section id="guna-of-rashis-two-systems" class="level2">
+<h2 class="anchored" data-anchor-id="guna-of-rashis-two-systems">GUNA OF RASHIS (Two Systems)</h2>
+<section id="system-1-by-creationmobility" class="level3">
+<h3 class="anchored" data-anchor-id="system-1-by-creationmobility"><strong>System 1: By Creation/Mobility</strong></h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Rashis</th>
+<th>Guna</th>
+<th>Energy</th>
+<th>Devata</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Chara</strong> (Movable)</td>
+<td>Mesha, Karkata, Tula, Makara</td>
+<td><strong>Rajas</strong></td>
+<td>Excess energy, pioneers, creative</td>
+<td><strong>Brahma</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Sthira</strong> (Fixed)</td>
+<td>Vrishabha, Simha, Vrishchika, Kumbha</td>
+<td><strong>Tamas</strong></td>
+<td>Inert, stable, sustaining</td>
+<td><strong>Rudra</strong></td>
+</tr>
+<tr class="odd">
+<td><strong>Dwi</strong> (Dual)</td>
+<td>Mithuna, Kanya, Dhanu, Meena</td>
+<td><strong>Sattva</strong></td>
+<td>Balanced between mobile &amp; fixed</td>
+<td><strong>Vishnu</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="system-2-by-lordship" class="level3">
+<h3 class="anchored" data-anchor-id="system-2-by-lordship"><strong>System 2: By Lordship</strong></h3>
+<p>Rashi lord’s guna adds layer to rashi: - <strong>Sattva planets:</strong> Surya, Chandra, Guru - <strong>Rajas planets:</strong> Budha, Shukra - <strong>Tamas planets:</strong> Mangala, Shani</p>
+<p><strong>Example:</strong> Mesha = Chara (Rajas by creation) + Mars lord (Tamas) = High energy but can be lazy/uninformed</p>
+<p><strong>How to Read:</strong> Check which guna dominates based on lord’s strength in chart</p>
+<hr>
+</section>
+</section>
+<section id="malefemale-signs" class="level2">
+<h2 class="anchored" data-anchor-id="malefemale-signs">MALE/FEMALE SIGNS</h2>
+<section id="krura-cruelmale---odd-signs" class="level3">
+<h3 class="anchored" data-anchor-id="krura-cruelmale---odd-signs"><strong>Krura (Cruel/Male) - ODD signs:</strong></h3>
+<p>Mesha, Mithuna, Simha, Tula, Dhanu, Kumbha - Aggressive, assertive, extroverted, outspoken - Make own decisions, less likely to seek advice</p>
+</section>
+<section id="saumya-gentlefemale---even-signs" class="level3">
+<h3 class="anchored" data-anchor-id="saumya-gentlefemale---even-signs"><strong>Saumya (Gentle/Female) - EVEN signs:</strong></h3>
+<p>Vrishabha, Karkata, Kanya, Vrishchika, Makara, Meena - Passive, introverted, sustaining - More likely to seek guidance/advice</p>
+<p><strong>For Child Gender (Saptamsha only):</strong> - <strong>Mithuna &amp; Karkata SWAP</strong> - <strong>Kumbha &amp; Meena SWAP</strong></p>
+<hr>
+</section>
+</section>
+<section id="yuga-rashis-dharmalight-level" class="level2">
+<h2 class="anchored" data-anchor-id="yuga-rashis-dharmalight-level">YUGA RASHIS (Dharma/Light Level)</h2>
+<ul>
+<li><strong>Krita/Satya:</strong> Simha, Vrishchika, Kumbha, Vrishabha - Things come easily, 100% support</li>
+<li><strong>Treta:</strong> Mesha, Karkata, Tula, Makara - 75% support, some effort needed</li>
+<li><strong>Dwapara:</strong> Dhanu, Meena, Mithuna, Kanya - 50% support</li>
+<li><strong>Kali:</strong> (remaining context) - Least support</li>
+</ul>
+<p><strong>Usage:</strong> Shows how much support/ease person has in getting knowledge, solutions</p>
+<hr>
+</section>
+<section id="planetary-cabinet-lordship-logic" class="level2">
+<h2 class="anchored" data-anchor-id="planetary-cabinet-lordship-logic">PLANETARY CABINET (Lordship Logic)</h2>
+<p>From <strong>Sun &amp; Moon</strong> (King &amp; Queen): 1. <strong>Sun &amp; Moon</strong> - Leo &amp; Cancer (King &amp; Queen’s quarters) 2. <strong>Budha</strong> - Gemini &amp; Virgo (Prince/Princess - next to parents) 3. <strong>Shukra</strong> - Taurus &amp; Libra (Court ladies) 4. <strong>Mangala</strong> - Aries &amp; Scorpio (Guards/Knights; Scorpio also has spies via Ketu) 5. <strong>Guru</strong> - Sagittarius &amp; Pisces (Advisors/Priests/Ministers) 6. <strong>Shani</strong> - Capricorn &amp; Aquarius (Workers/Commoners/Labor)</p>
+<p><strong>Also shows:</strong> Speed of planets from Earth (geocentric view)</p>
+<hr>
+</section>
+<section id="memory-aid-hand-method" class="level2">
+<h2 class="anchored" data-anchor-id="memory-aid-hand-method">MEMORY AID: Hand Method</h2>
+<p><strong>Fingers = 12 Rashis</strong> (4 fingers × 3 parts = 12)</p>
+<ul>
+<li><strong>Fingertips</strong> (top part) = <strong>Chara rashis</strong> (Mesha, Karkata, Tula, Makara) - Most mobile, doing karma</li>
+<li><strong>Middle sections</strong> = <strong>Sthira rashis</strong> (Vrishabha, Simha, Vrishchika, Kumbha) - Fixed, no free will</li>
+<li><strong>Base/Root</strong> = <strong>Dwi rashis</strong> (Mithuna, Kanya, Dhanu, Meena) - <strong>Most controlling lagnas!</strong></li>
+</ul>
+<p><strong>Dual lagnas control through:</strong> - <strong>Budha lagnas</strong> (Mithuna/Kanya) - Control via <strong>information/details</strong> - <strong>Guru lagnas</strong> (Dhanu/Meena) - Control via <strong>knowledge/belief systems</strong></p>
+<hr>
+<p><strong>Next Steps:</strong> This foundational knowledge will be layered with grahas (planets), bhavas (houses), and yogas in upcoming lessons.</p>
+<p>Would you like me to clarify any specific concept?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="384915b8" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-7-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-6" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-6">Lesson 6</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 6: Katapayadi &amp; Bhava Chakras
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="katapayadi-system-numerical-values-from-names" class="level2">
+<h2 class="anchored" data-anchor-id="katapayadi-system-numerical-values-from-names">1. KATAPAYADI SYSTEM (Numerical Values from Names)</h2>
+<p><strong>Core Principle:</strong> Sanskrit consonants have numerical values (0-9)</p>
+<p><strong>Key Rules:</strong> - <strong>Vowels = 0</strong> (only counted if name starts with vowel) - Use <strong>pronunciation</strong>, not spelling - Drop incomplete consonants (without following vowel) - <strong>Ra/La rule:</strong> If consonants joined with R or L, keep only initial consonant - <strong>Reverse the number</strong> after calculation - <strong>Divide by 12</strong> to get remainder = Rashi</p>
+<p><strong>Example: Vivekananda</strong> - Consonants: Va-Ve-Ka-Na-Na-Da - Values: 4-4-1-0-8 - Number: 44108 → Reversed: 80144 - After dividing by 12 → Remainder = <strong>4</strong> (karka rahsi)</p>
+<p><strong>Usage:</strong> - <strong>Rashi</strong> (sign) = interaction with people - <strong>House number</strong> = inner manifestation</p>
+<hr>
+</section>
+<section id="astronomical-basics" class="level2">
+<h2 class="anchored" data-anchor-id="astronomical-basics">2. ASTRONOMICAL BASICS</h2>
+<p><strong>Horizon:</strong> Where earth and sky meet (observer-dependent)</p>
+<p><strong>Key Points:</strong> - <strong>Udaya Lagna</strong> = Eastern horizon (rising point) - <strong>Asta Lagna</strong> = Western horizon (setting point) - 180° from Udaya - <strong>MC (Mid-Heaven/Zenith)</strong> = 90° above observer - <strong>Ecliptic</strong> = Horizontal plane between Sun &amp; Earth</p>
+<p><strong>Directional Degrees:</strong> - North = 0°/360° - East = 90° - South = 180° - West = 270°</p>
+<hr>
+</section>
+<section id="bhava-chakra-house-system" class="level2">
+<h2 class="anchored" data-anchor-id="bhava-chakra-house-system">3. BHAVA CHAKRA (House System)</h2>
+<p><strong>Method:</strong> Take Lagna degree ± 15 degrees = 30° house span</p>
+<p><strong>Example: Swami Vivekananda (26° Dhanu Lagna)</strong> - 1st House = 11° Dhanu to 11° Makara - 2nd House = 11° Makara to 11° Kumbha - And so on…</p>
+<p><strong>Result:</strong> Planets may <strong>shift houses</strong> if they’re within 15° of cusp</p>
+<p><strong>In Vivekananda’s chart:</strong> - Mars shifted from 5th → 4th house - Venus shifted from 2nd → 1st house - Jupiter shifted to 10th house</p>
+<p><strong>Significance:</strong> When many planets shift = <strong>major life transformations</strong></p>
+<hr>
+</section>
+<section id="bhava-chalit-chakra" class="level2">
+<h2 class="anchored" data-anchor-id="bhava-chalit-chakra">4. BHAVA CHALIT CHAKRA</h2>
+<p><strong>Starting Point:</strong> Uses <strong>Bhava Lagna</strong> (special lagna, moves 2 hours/sign)</p>
+<p><strong>Same process:</strong> Bhava Lagna degree ± 15°</p>
+<p><strong>Key Difference:</strong> - Bhava Chakra starts from <strong>Udaya Lagna</strong> - Bhava Chalit starts from <strong>Bhava Lagna</strong> (calculated separately)</p>
+<hr>
+</section>
+<section id="biological-clock-chart-practical-application" class="level2">
+<h2 class="anchored" data-anchor-id="biological-clock-chart-practical-application">5. BIOLOGICAL CLOCK CHART (Practical Application)</h2>
+<p><strong>Setup:</strong> 1. Draw Bhava Chalit Chakra 2. Place <strong>6 AM</strong> where Sun is located 3. Place <strong>6 PM</strong> in 7th house from Sun 4. Each house = <strong>2-hour period</strong></p>
+<p><strong>Planet Activities &amp; Best Times:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 34%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Planet</th>
+<th>Activity</th>
+<th>Best Time</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Surya</strong></td>
+<td>Spiritual practice, energy level</td>
+<td>Sun’s house + aspects</td>
+</tr>
+<tr class="even">
+<td><strong>Chandra</strong></td>
+<td>Eating/food</td>
+<td>Moon’s house + aspects</td>
+</tr>
+<tr class="odd">
+<td><strong>Mangala</strong></td>
+<td>Exercise, physical strength</td>
+<td>Mars house + aspects (4th, 7th, 8th from itself)</td>
+</tr>
+<tr class="even">
+<td><strong>Budha</strong></td>
+<td>Reading, learning, playing</td>
+<td>Mercury’s house + aspects</td>
+</tr>
+<tr class="odd">
+<td><strong>Guru</strong></td>
+<td>Big decisions, digestion, conclusions</td>
+<td>Jupiter’s house + aspects</td>
+</tr>
+<tr class="even">
+<td><strong>Shukra</strong></td>
+<td>Relationships, indulgence</td>
+<td>Venus’s house + aspects</td>
+</tr>
+<tr class="odd">
+<td><strong>Shani</strong></td>
+<td>Resting (15 min minimum)</td>
+<td>Saturn’s house + aspects</td>
+</tr>
+<tr class="even">
+<td><strong>Rahu</strong></td>
+<td><strong>NO activity</strong> - meditation time</td>
+<td>Rahu’s house + aspects</td>
+</tr>
+<tr class="odd">
+<td><strong>Ketu</strong></td>
+<td><strong>Avoid activities</strong> - meditation</td>
+<td>Ketu’s house + aspects</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Important Notes:</strong> - Check planet’s <strong>aspects</strong> (5th, 7th, 9th, 2nd from itself for Rahu) - When planets conjunct = divide time between both activities - Each house = 2 hours, but find at least 15 min for that activity - Movement is <strong>anti-zodiacal</strong> (Sun moves through houses, not signs)</p>
+<hr>
+</section>
+<section id="chart-types-three-representations" class="level2">
+<h2 class="anchored" data-anchor-id="chart-types-three-representations">6. CHART TYPES (Three Representations)</h2>
+<ol type="1">
+<li><strong>Surya Chakra</strong> (East Indian) - for spirituality</li>
+<li><strong>Brigu Chakra</strong> (North Indian) - for Bhava Chakra</li>
+<li><strong>Guru Chakra</strong> (South Indian) - for Vastu</li>
+</ol>
+<p><strong>Practice tip:</strong> Use each chart exclusively for 1-3 months to master all types</p>
+<hr>
+<p><strong>Homework:</strong> Draw your Bhava Chalit Chakra and create your biological clock timing table!</p>
+<p>Would you like clarification on any specific concept?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="0527625c" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-8-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-8-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-8-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-8-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-8-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-7" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-7">Lesson 7</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 7: Grahas (Planets) - Introduction
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="opening-context-1" class="level3">
+<h3 class="anchored" data-anchor-id="opening-context-1">Opening Context</h3>
+<ul>
+<li>This is the <strong>first of three webinars</strong> on Grahas (planets)</li>
+<li>Traditionally, Jyotish teaching <strong>starts with Chapter 3</strong> (Grahas), not Chapters 1-2 (Creation/Philosophy)</li>
+<li>Students should study Parashara shlokas <strong>at least 3 times</strong> to truly digest them</li>
+<li>Use audio recordings from other batches as supplementary material</li>
+</ul>
+<hr>
+</section>
+<section id="core-definition-what-is-a-graha" class="level3">
+<h3 class="anchored" data-anchor-id="core-definition-what-is-a-graha">CORE DEFINITION: What is a Graha?</h3>
+<p><strong>Parashara’s Definition (Chapter 3, Shloka 1):</strong> Heavenly bodies classified by: 1. <strong>Visibility</strong> (can we see them?) 2. <strong>Movement</strong> (do they move?)</p>
+<ul>
+<li><strong>Moving bodies</strong> = <strong>Graha</strong> (from root “grahana” = to seize/eclipse)</li>
+<li><strong>Fixed bodies</strong> = <strong>Nakshatra</strong> (fixed stars)</li>
+</ul>
+<p><strong>KEY POINT:</strong> Grahas have the inherent nature to <strong>eclipse the mind</strong> - this is their fundamental characteristic.</p>
+<hr>
+</section>
+<section id="why-rahu-ketu-are-grahas-despite-having-no-physical-body" class="level3">
+<h3 class="anchored" data-anchor-id="why-rahu-ketu-are-grahas-despite-having-no-physical-body">Why Rahu &amp; Ketu are Grahas (Despite Having No Physical Body)</h3>
+<p><strong>Question addressed:</strong> If we only count visible bodies, why include Rahu/Ketu?</p>
+<p><strong>Answer:</strong> - They are <strong>mathematical points</strong> (nodes of the Moon) - They create <strong>inverse light/shadow</strong> (like closing eyes after seeing sun = black circle) - They represent <strong>extremes of the mind</strong>: - <strong>Rahu</strong> = Fully material, maximum desire, wants to consume everything - <strong>Ketu</strong> = Fully detached, wants nothing, renunciation</p>
+<p><strong>Manifestations:</strong> - <strong>Rahu:</strong> Foreigners, different cultures, borders, geographical boundaries, fermentation, alcohol, medicine - <strong>Ketu:</strong> Outcasts, monks/nuns, spiritual people, those who renounce society - <strong>Example given:</strong> Man who moved to attic for years, refused all contact = clear Ketu influence</p>
+<hr>
+</section>
+<section id="planetary-motion-critical-concept" class="level3">
+<h3 class="anchored" data-anchor-id="planetary-motion-critical-concept">PLANETARY MOTION (Critical Concept)</h3>
+</section>
+<section id="three-categories-of-motion" class="level3">
+<h3 class="anchored" data-anchor-id="three-categories-of-motion">Three Categories of Motion:</h3>
+<ol type="1">
+<li><strong>Always Direct (Forward):</strong>
+<ul>
+<li><strong>Surya (Sun) &amp; Chandra (Moon)</strong> - the Luminaries</li>
+<li>Establish dharma, predictable, “one foot after another”</li>
+</ul></li>
+<li><strong>Always Retrograde (Backward):</strong>
+<ul>
+<li><strong>Rahu &amp; Ketu</strong> - the Nodes</li>
+<li>Move opposite to all other planets</li>
+<li>Cause eclipses when they meet luminaries</li>
+</ul></li>
+<li><strong>Can Be Either (Tara Grahas - 5 Planets):</strong>
+<ul>
+<li><strong>Mangala, Budha, Guru, Shukra, Shani</strong></li>
+<li>When <strong>direct</strong> → behave like Luminaries (normal, predictable)</li>
+<li>When <strong>retrograde</strong> → behave like Nodes (unpredictable, unfulfilled desires)</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+<section id="retrograde-planets-vakri" class="level3">
+<h3 class="anchored" data-anchor-id="retrograde-planets-vakri">RETROGRADE PLANETS (Vakri)</h3>
+<p><strong>Nature:</strong> Planet behaves like Rahu/Ketu</p>
+<p><strong>Characteristics:</strong> - <strong>Not progressing</strong> - standing still or pacing - <strong>Unfulfilled desire/karma</strong> with that planet - <strong>Unpredictable, odd behavior</strong> - <strong>Cannot be trusted</strong> (unexpected turns) - <strong>May not give results</strong> (especially in Prashna/horary)</p>
+<p><strong>Strength Implications:</strong> - Retrograde = <strong>Extremely strong</strong> (like nodes) - Has <strong>Cheshtabala</strong> (directional strength) - Can cause <strong>highest grahana</strong> (eclipse power)</p>
+<p><strong>Prashna (Horary) Rules:</strong> - If significator is vakri → <strong>Won’t happen</strong> (or needs 3 attempts) - <strong>3x multiplier:</strong> 3x more effort, 3 attempts, or 3 blessings/children</p>
+<hr>
+</section>
+<section id="eight-types-of-motion" class="level3">
+<h3 class="anchored" data-anchor-id="eight-types-of-motion">EIGHT TYPES OF MOTION</h3>
+<p><strong>5 Direct Motions:</strong> 1-5. (Various speeds of forward movement)</p>
+<p><strong>3 Retrograde Motions:</strong> 1. <strong>Vakra</strong> - Standard retrograde 2. <strong>Anu-vakra</strong> - Slowing down in retrograde 3. <strong>Kutila</strong> - <strong>Stationary</strong> (about to change direction)</p>
+<p><strong>IMPORTANT:</strong> Kutila applies to <strong>both</strong> transitions: - Direct → Retrograde - Retrograde → Direct</p>
+<hr>
+</section>
+<section id="when-do-planets-go-retrograde" class="level3">
+<h3 class="anchored" data-anchor-id="when-do-planets-go-retrograde">WHEN DO PLANETS GO RETROGRADE?</h3>
+<p><strong>Outer Planets (Mars, Jupiter, Saturn):</strong></p>
+<p><strong>Exercise given:</strong> Draw blank chart, place Jupiter on Lagna</p>
+<ul>
+<li><strong>120° from Sun</strong> (5th or 9th house) = <strong>Kutila (Stationary)</strong>
+<ul>
+<li>5th house = Just entering retrograde</li>
+<li>9th house = Just finishing retrograde</li>
+</ul></li>
+<li><strong>180° from Sun</strong> (7th house) = <strong>Highest retrograde motion</strong></li>
+<li><strong>6th house</strong> = Vakra (Mars nature)</li>
+<li><strong>8th house</strong> = Anu-vakra (Rahu nature)</li>
+<li><strong>4th/10th houses</strong> = Direct motion range</li>
+</ul>
+<p><strong>Inner Planets (Mercury, Venus):</strong> - Requires deep astronomical study (Surya Siddhanta) - Not explained in basic course</p>
+<hr>
+</section>
+<section id="chart-example-pandit-sanjay-rath" class="level3">
+<h3 class="anchored" data-anchor-id="chart-example-pandit-sanjay-rath">CHART EXAMPLE: Pandit Sanjay Rath</h3>
+<p><strong>Jupiter:</strong> Sun in 5th from Jupiter → Jupiter <strong>stationary</strong> (velocity = 7, very low)</p>
+<p><strong>Saturn:</strong> Opposite Sun (7th house) → <strong>Highest retrograde</strong> (velocity = -223%)</p>
+<p><strong>Velocity Interpretation:</strong> - <strong>Minus (-)</strong> = Retrograde - <strong>Close to 0</strong> = Stationary - <strong>High positive</strong> = Fast direct motion - <strong>High negative</strong> = Fast retrograde (double speed)</p>
+<p><strong>Note:</strong> No exact ranges given for motion types - must observe velocity values</p>
+<hr>
+</section>
+<section id="do-we-move-retrograde-planets-in-the-chart" class="level3">
+<h3 class="anchored" data-anchor-id="do-we-move-retrograde-planets-in-the-chart">DO WE MOVE RETROGRADE PLANETS IN THE CHART?</h3>
+<p><strong>NO!</strong> Planet stays where it is.</p>
+<p><strong>Example:</strong> Retrograde boyfriend still behaves oddly, but he’s still your boyfriend in the same place.</p>
+<p><strong>What changes:</strong> - Planet gets <strong>nature of nodes</strong> - Can cancel exaltation/debilitation (taught in next lesson) - Creates yogas from its actual position</p>
+<hr>
+</section>
+<section id="nakshatra-vs-rashi-critical-distinction" class="level3">
+<h3 class="anchored" data-anchor-id="nakshatra-vs-rashi-critical-distinction">NAKSHATRA vs RASHI (Critical Distinction)</h3>
+<p><strong>Question:</strong> Why do grahas show different colors in nakshatra vs rashi?</p>
+<p><strong>Answer - The Three Lokas:</strong></p>
+<ol type="1">
+<li><strong>Bhuloka (Earth)</strong> - Where we are
+<ul>
+<li><strong>Rashis</strong> = All material resources, physical interactions</li>
+</ul></li>
+<li><strong>Bhuvarloka (Solar System)</strong> - Above us
+<ul>
+<li><strong>Grahas</strong> = Moving planets, casting shadows</li>
+</ul></li>
+<li><strong>Svargaloka (Sky)</strong> - Above that
+<ul>
+<li><strong>Nakshatras</strong> = Fixed stars, mental/emotional plane, devatas</li>
+</ul></li>
+</ol>
+<p><strong>How Grahas Work:</strong> - Grahas move through nakshatras (truth) - Cast shadow on both nakshatras AND rashis - <strong>Bind</strong> nakshatra significations with rashi significations</p>
+<p><strong>Nakshatras</strong> = Your <strong>thoughts, emotions, ideas</strong> (lunar, night concept) - Where graha is = your specific lens of thinking/feeling</p>
+<p><strong>Rashis</strong> = <strong>Material resources, physical things</strong> (everything you can see/touch) - Where graha is = where you experience grahana materially</p>
+<p><strong>Example: Two planets in same rashi but different nakshatras:</strong> - Working on same project (rashi) - But have different ideas/emotions about it (nakshatra)</p>
+<p><strong>Direction of influence works both ways:</strong> 1. Mental → Material: Thoughts manifest as actions 2. Material → Mental: Events cause us to think certain thoughts</p>
+<hr>
+</section>
+<section id="four-types-of-lagna-briefly-mentioned" class="level3">
+<h3 class="anchored" data-anchor-id="four-types-of-lagna-briefly-mentioned">FOUR TYPES OF LAGNA (Briefly Mentioned)</h3>
+<p>Not explained in detail (covered in separate lesson), but:</p>
+<p><strong>Birth Time Indicators:</strong> - <strong>Sun in 1st</strong> (Udaya Lagna) = Sunrise birth - <strong>Sun in 7th</strong> (Asta Lagna) = Sunset birth - <strong>Sun in 10th</strong> (Akasha Lagna) = Midday birth (~noon) - <strong>Sun in 4th</strong> (Jala Lagna) = Midnight birth</p>
+<hr>
+</section>
+<section id="sam-yoga-combinations" class="level3">
+<h3 class="anchored" data-anchor-id="sam-yoga-combinations">SAM-YOGA (Combinations)</h3>
+<p><strong>Sam-yoga</strong> = ALL ways planets can combine (with planets, nakshatras, rashis)</p>
+<p><strong>Sam-bandha</strong> = <strong>Important</strong> combinations that have great impact - This is the term we use most - 4 specific types (one being conjunction/yuti)</p>
+<p><strong>Sam-yoga Sphuta</strong> = Mathematical meeting point of two planets - Calculated even if not in same rashi - Shows where yoga will manifest</p>
+<p><strong>Later:</strong> Yoga Sphuta can combine ANY two points (e.g., Lagna lord + 7th lord)</p>
+<hr>
+</section>
+<section id="bhavishya-vs-atita-yoga" class="level3">
+<h3 class="anchored" data-anchor-id="bhavishya-vs-atita-yoga">BHAVISHYA vs ATITA YOGA</h3>
+<p><strong>Bhavishya Yoga</strong> = Yoga that <strong>will happen in future</strong> - Planets moving toward conjunction</p>
+<p><strong>Atita/Veeta Yoga</strong> = Yoga that <strong>happened in past</strong> - Planets moving apart after conjunction</p>
+<p><strong>Why calculate Atita Yoga Sphuta?</strong> - See where past yoga had impact - Useful for research/deep study of charts - Example: Two people with Chandra-Ketu in 11th - did it happen already or will it happen?</p>
+<p><strong>If yoga rashi not visible from yoga:</strong> - Don’t use seasons (mentioned but corrected) - Use <strong>Samukha-rashi</strong> (opposite/complementary signs) - Taught in Rashi Drishti module</p>
+<hr>
+</section>
+<section id="graha-yudha-planetary-war" class="level3">
+<h3 class="anchored" data-anchor-id="graha-yudha-planetary-war">GRAHA YUDHA (Planetary War)</h3>
+<p><strong>Not taught in detail yet</strong> - comes in Year 3</p>
+<ul>
+<li>4 types of interpretation</li>
+<li>Related to Bala (strength) calculations</li>
+<li>Just introduced as concept for now</li>
+</ul>
+<hr>
+</section>
+<section id="key-terminology-to-remember" class="level3">
+<h3 class="anchored" data-anchor-id="key-terminology-to-remember">KEY TERMINOLOGY TO REMEMBER</h3>
+<ul>
+<li><strong>Graha</strong> = Planet that eclipses mind</li>
+<li><strong>Vakri</strong> = Retrograde</li>
+<li><strong>Kutila</strong> = Stationary</li>
+<li><strong>Sam-bandha</strong> = Important combination</li>
+<li><strong>Sam-yoga Sphuta</strong> = Meeting point of yoga</li>
+<li><strong>Bhavishya Yoga</strong> = Future yoga</li>
+<li><strong>Atita/Veeta Yoga</strong> = Past yoga</li>
+<li><strong>Prasanga</strong> = Planet that bridges gap (Year 3/4 topic)</li>
+</ul>
+<hr>
+</section>
+<section id="homeworknext-steps" class="level3">
+<h3 class="anchored" data-anchor-id="homeworknext-steps">HOMEWORK/NEXT STEPS</h3>
+<ul>
+<li>Study planetary motions in your own chart</li>
+<li>Observe velocity values in software</li>
+<li>Check if any retrograde planets present</li>
+<li>Note which nakshatras vs rashis planets occupy</li>
+<li>Prepare questions for next Graha webinar</li>
+</ul>
+<hr>
+<p><strong>Next Topics:</strong> Exaltation, debilitation, planetary relationships, yogas in detail</p>
+<p>Would you like me to clarify any specific concept from this lesson?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="0e7656d2" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-9-output-9.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-8" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-8">Lesson 8</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Summary of Lesson 8: Graha Devatas &amp; Karakas
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="adi-devata-mantras-for-auspicious-beginnings" class="level3">
+<h3 class="anchored" data-anchor-id="adi-devata-mantras-for-auspicious-beginnings">1. ADI DEVATA MANTRAS (For Auspicious Beginnings)</h3>
+<p><strong>Purpose:</strong> Worship when <strong>starting</strong> something new (job, family, project, book)</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 40%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Graha</th>
+<th>Adi Devata</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Surya</strong></td>
+<td>Vahni (Agni)</td>
+<td>Awakens purpose, takes prayers to devas</td>
+</tr>
+<tr class="even">
+<td><strong>Chandra</strong></td>
+<td>Ambika</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Mangala</strong></td>
+<td>Subramanya</td>
+<td>Auspicious form (NOT Skanda/warrior form)</td>
+</tr>
+<tr class="even">
+<td><strong>Budha</strong></td>
+<td>Rama (0-10°), Krishna (10-20°), Vishnu (20-30°)</td>
+<td>Choose based on degree</td>
+</tr>
+<tr class="odd">
+<td><strong>Guru</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Shukra</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Shani</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Point:</strong> Adi devatas are for <strong>awakening/starting</strong> activities.</p>
+<hr>
+</section>
+<section id="pratiyadi-devata-mantras-for-control-sustenance" class="level3">
+<h3 class="anchored" data-anchor-id="pratiyadi-devata-mantras-for-control-sustenance">2. PRATIYADI DEVATA MANTRAS (For Control &amp; Sustenance)</h3>
+<p><strong>Purpose:</strong> <strong>Control, sustain, protect, remove obstacles, complete karmas</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 53%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Graha</th>
+<th>Pratiyadi Devata</th>
+<th>Nature</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Surya</strong></td>
+<td>Shiva</td>
+<td>Manifested form (with form)</td>
+</tr>
+<tr class="even">
+<td><strong>Chandra</strong></td>
+<td>Gauri</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Mangala</strong></td>
+<td>Subramanya</td>
+<td>Same as Adi devata</td>
+</tr>
+<tr class="even">
+<td><strong>Budha</strong></td>
+<td>Narayana</td>
+<td>Unmanifested, above avatars</td>
+</tr>
+<tr class="odd">
+<td><strong>Guru</strong></td>
+<td>Sadashiva</td>
+<td><strong>Unmanifested</strong> Shiva (no form)</td>
+</tr>
+<tr class="even">
+<td><strong>Shukra</strong></td>
+<td>Lakshmi</td>
+<td>Sustains relationships, love</td>
+</tr>
+<tr class="odd">
+<td><strong>Shani</strong></td>
+<td>Krishna Narayana (Jagannath)</td>
+<td>Relieves sins, without form</td>
+</tr>
+<tr class="even">
+<td><strong>Rahu</strong></td>
+<td>Chandi (Durga)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Ketu</strong></td>
+<td>Ganesha</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Key Difference:</strong> - Adi devata = Start things - Pratiyadi devata = Sustain, protect, correct, complete</p>
+<p><strong>When to Use:</strong> Based on <strong>dasha</strong> and <strong>current need</strong> (not all at once!)</p>
+<hr>
+</section>
+<section id="four-kendras-four-lagnas" class="level3">
+<h3 class="anchored" data-anchor-id="four-kendras-four-lagnas">3. FOUR KENDRAS &amp; FOUR LAGNAS</h3>
+<p><strong>Kendras represent Vishnu’s sustaining power</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 19%">
+<col style="width: 8%">
+<col style="width: 16%">
+<col style="width: 25%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lagna</th>
+<th>Sun Position</th>
+<th>Time</th>
+<th>Represents</th>
+<th>Bija (Vaishnava)</th>
+<th>Bija (Shaiva)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Udaya</strong> (1st)</td>
+<td>Sunrise</td>
+<td>~6 AM</td>
+<td>Life beginning, Buddhi (intelligence)</td>
+<td>Hare</td>
+<td>Om</td>
+</tr>
+<tr class="even">
+<td><strong>Asta</strong> (7th)</td>
+<td>Sunset</td>
+<td>~6 PM</td>
+<td>Moon rises, social life, Shuddhi (cleansing)</td>
+<td>Rama</td>
+<td>Hreem</td>
+</tr>
+<tr class="odd">
+<td><strong>Jala</strong> (4th)</td>
+<td>Midnight</td>
+<td>~12 AM</td>
+<td>Moon’s full potential, rest, forgiveness</td>
+<td>Krishna</td>
+<td>Kleem</td>
+</tr>
+<tr class="even">
+<td><strong>Akasha/Svarga</strong> (10th)</td>
+<td>Midday</td>
+<td>~12 PM</td>
+<td>Sun’s full potential, Siddhi (accomplishment), karma burning</td>
+<td>Hare</td>
+<td>Shreem</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SAMADHI = Balance of all 4:</strong> Buddhi + Shuddhi + Siddhi + Riti</p>
+<hr>
+</section>
+<section id="jobcareer-analysis-practical-application" class="level3">
+<h3 class="anchored" data-anchor-id="jobcareer-analysis-practical-application">4. JOB/CAREER ANALYSIS (Practical Application)</h3>
+<section id="sattva-houses-sustaining-job" class="level4">
+<h4 class="anchored" data-anchor-id="sattva-houses-sustaining-job"><strong>Sattva Houses (Sustaining Job):</strong></h4>
+<p>From <strong>Akasha Lagna (10th)</strong>, count 4th, 5th, 9th, 12th houses. These become from your <strong>Lagna</strong>: <strong>1st, 2nd, 6th, 9th</strong></p>
+<ul>
+<li><strong>1st house</strong> = Mental ability to do job</li>
+<li><strong>2nd house</strong> = Wealth accumulated from job</li>
+<li><strong>6th house</strong> = Hard work capacity</li>
+<li><strong>9th house</strong> = Knowledge/education for job</li>
+</ul>
+</section>
+<section id="rajas-houses-job-fluctuations" class="level4">
+<h4 class="anchored" data-anchor-id="rajas-houses-job-fluctuations"><strong>Rajas Houses (Job Fluctuations):</strong></h4>
+<p>Venus &amp; Mercury signs from Akasha = <strong>3rd, 4th, 11th, 12th</strong> from Lagna</p>
+<ul>
+<li><strong>3rd</strong> = Daily efforts, enterprise</li>
+<li><strong>4th</strong> = Love for job</li>
+<li><strong>11th</strong> = Income</li>
+<li><strong>12th</strong> = Losses from job</li>
+</ul>
+</section>
+<section id="tamas-houses-job-changes" class="level4">
+<h4 class="anchored" data-anchor-id="tamas-houses-job-changes"><strong>Tamas Houses (Job Changes):</strong></h4>
+<p>Mars &amp; Saturn signs from Akasha = <strong>5th, 7th, 8th, 10th</strong> from Lagna</p>
+<ul>
+<li><strong>5th</strong> = New job appears</li>
+<li><strong>7th</strong> = Social responsibilities cause change</li>
+<li><strong>8th</strong> = Retirement, weakness</li>
+<li><strong>10th</strong> = Progress/ambition</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="abhijit-rashi-4th-from-sun" class="level3">
+<h3 class="anchored" data-anchor-id="abhijit-rashi-4th-from-sun">5. ABHIJIT RASHI (4th from Sun)</h3>
+<p><strong>Two Devatas:</strong> 1. <strong>Kubera</strong> = Wealth 2. <strong>Vishnu</strong> = Purity/Enlightenment</p>
+<p><strong>Choice:</strong> Do we choose wealth or enlightenment?</p>
+<p><strong>Reversal Principle:</strong> - <strong>12th from Sun</strong> = What we GAIN (nature loses, we gain) - <strong>2nd from Sun</strong> = What we LOSE (we give back to nature)</p>
+<hr>
+</section>
+<section id="guna-chakra-quality-of-grahas" class="level3">
+<h3 class="anchored" data-anchor-id="guna-chakra-quality-of-grahas">6. GUNA CHAKRA (Quality of Grahas)</h3>
+<section id="three-gunas-with-borders" class="level4">
+<h4 class="anchored" data-anchor-id="three-gunas-with-borders"><strong>Three Gunas with Borders:</strong></h4>
+<p><strong>SATTVA:</strong> Surya, Chandra, Guru (sustenance, protection) ↓ <strong>RAHU</strong> (border - attacks sattva) ↓ <strong>RAJAS:</strong> Budha (5), Shukra (6) ↓ <strong>KETU</strong> (border) ↓ <strong>TAMAS:</strong> Mangala, Shani</p>
+<p><strong>Numbers:</strong> Sy=1, Ch=2, Gu=3, Ra=4, Bu=5, Sk=6, Ke=7, Sa=8, Ma=9</p>
+<hr>
+</section>
+</section>
+<section id="four-guna-types-character-classification" class="level3">
+<h3 class="anchored" data-anchor-id="four-guna-types-character-classification">7. FOUR GUNA TYPES (Character Classification)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 24%">
+<col style="width: 24%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Nature</th>
+<th>Grahas</th>
+<th>Character</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Uttama</strong></td>
+<td>Purest sattva</td>
+<td>Saumya &amp; Punya (Moon, Guru, Venus, Mercury)</td>
+<td>Forgiveness, control, calm, humble</td>
+</tr>
+<tr class="even">
+<td><strong>Madhyama</strong></td>
+<td>Kshatriya, harsh but auspicious</td>
+<td><strong>Surya only</strong></td>
+<td>Protects dharma, corrects (like prison)</td>
+</tr>
+<tr class="odd">
+<td><strong>Udashina</strong></td>
+<td>Sad, depressed, greedy</td>
+<td>Venus, Mercury (rajas)</td>
+<td>Never satisfied, sorrowful</td>
+</tr>
+<tr class="even">
+<td><strong>Adhama</strong></td>
+<td>Evil, harsh</td>
+<td>Mars, Saturn (tamas)</td>
+<td>Lies, lazy, violent</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Problems to Develop:</strong> - <strong>Tamas (Rakshasa)</strong> = Empathy (Daya) - <strong>Rajas (Manushya)</strong> = Donation (Dana) - <strong>Sattva (Deva)</strong> = Control senses</p>
+<p><strong>Goal:</strong> Become <strong>Gunatita</strong> (beyond gunas)</p>
+<hr>
+</section>
+<section id="shadripus-6-enemies-panchamakaras-5-elements-to-avoid" class="level3">
+<h3 class="anchored" data-anchor-id="shadripus-6-enemies-panchamakaras-5-elements-to-avoid">8. SHADRIPUS (6 Enemies) &amp; PANCHAMAKARAS (5 Elements to Avoid)</h3>
+<section id="shadripus-mars-karaka" class="level4">
+<h4 class="anchored" data-anchor-id="shadripus-mars-karaka"><strong>Shadripus (Mars karaka):</strong></h4>
+<ol type="1">
+<li><strong>Kama</strong> - Desire</li>
+<li><strong>Krodha</strong> - Anger</li>
+<li><strong>Lobha</strong> - Greed</li>
+<li><strong>Moha</strong> - Attachment</li>
+<li><strong>Mada</strong> - Pride</li>
+<li><strong>Matsarya</strong> - Jealousy</li>
+</ol>
+</section>
+<section id="panchamakaras-saturn-karaka" class="level4">
+<h4 class="anchored" data-anchor-id="panchamakaras-saturn-karaka"><strong>Panchamakaras (Saturn karaka):</strong></h4>
+<ol type="1">
+<li><strong>Madya</strong> - Alcohol/intoxication</li>
+<li><strong>Mamsa</strong> - Flesh/blood (damages Moon/Shanti)</li>
+<li><strong>Matsarya</strong> - Desire for others’ possessions</li>
+<li><strong>Maithuna</strong> - Copulation</li>
+<li><strong>Mudra</strong> - Inappropriate postures/touching</li>
+</ol>
+<p><strong>Relationship:</strong> Panchamakaras <strong>cause</strong> Shadripus</p>
+<hr>
+</section>
+</section>
+<section id="bhava-karakas-house-significators" class="level3">
+<h3 class="anchored" data-anchor-id="bhava-karakas-house-significators">9. BHAVA KARAKAS (House Significators)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 32%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>House</th>
+<th>Karaka(s)</th>
+<th>What They Show</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st</td>
+<td>Surya</td>
+<td>Self</td>
+</tr>
+<tr class="even">
+<td>2nd</td>
+<td>Guru (wealth), Budha (speech)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3rd</td>
+<td>Mangala</td>
+<td>Courage, siblings</td>
+</tr>
+<tr class="even">
+<td>4th</td>
+<td>Chandra (mother), Mangala (property)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5th</td>
+<td>Guru</td>
+<td>Children, intelligence</td>
+</tr>
+<tr class="even">
+<td>6th</td>
+<td>Shani, Mangala</td>
+<td>Enemies, disease</td>
+</tr>
+<tr class="odd">
+<td>7th</td>
+<td>Shukra</td>
+<td>Spouse</td>
+</tr>
+<tr class="even">
+<td>8th</td>
+<td>Shani</td>
+<td>Longevity</td>
+</tr>
+<tr class="odd">
+<td>9th</td>
+<td>Surya, Guru</td>
+<td>Father, dharma</td>
+</tr>
+<tr class="even">
+<td>10th</td>
+<td>Budha (job ability), Surya (need), Shani (effort), Guru (fruits)</td>
+<td>Career</td>
+</tr>
+<tr class="odd">
+<td>11th</td>
+<td>Guru</td>
+<td>Gains</td>
+</tr>
+<tr class="even">
+<td>12th</td>
+<td>Shani</td>
+<td>Loss, expenses</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Technique:</strong> Place karaka as lagna to see specific relationships - E.g., 4th from Guru = knowledge from mother - 5th from Budha = communication with children</p>
+<hr>
+</section>
+<section id="adityas-one-for-each-sign" class="level3">
+<h3 class="anchored" data-anchor-id="adityas-one-for-each-sign">10. 12 ADITYAS (One for Each Sign)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Sign</th>
+<th>Aditya</th>
+<th>Sign</th>
+<th>Aditya</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mesha</td>
+<td>Dhata</td>
+<td>Tula</td>
+<td>Indra</td>
+</tr>
+<tr class="even">
+<td>Vrishabha</td>
+<td>Aryaman</td>
+<td>Vrishchika</td>
+<td>(Ali)</td>
+</tr>
+<tr class="odd">
+<td>Mithuna</td>
+<td>Mitra</td>
+<td>Dhanu</td>
+<td>Bhaga</td>
+</tr>
+<tr class="even">
+<td>Karkata</td>
+<td>Varuna</td>
+<td>Makara</td>
+<td>Bhaga</td>
+</tr>
+<tr class="odd">
+<td>Simha</td>
+<td>Indra</td>
+<td>Kumbha</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Kanya</td>
+<td>Vivasvan</td>
+<td>Meena</td>
+<td>Vishnu</td>
+</tr>
+</tbody>
+</table>
+<p>** above table is incorrect please check the slides **</p>
+<p><strong>Two Adityas matter:</strong> 1. <strong>Lagna Aditya</strong> = Defines YOU, intellectual functioning (personal) 2. <strong>Sun sign Aditya</strong> = What you do to the WORLD (external)</p>
+<p><strong>House where Sun placed</strong> = Area blessed by that Aditya</p>
+<hr>
+</section>
+<section id="rashi-dosha-application" class="level3">
+<h3 class="anchored" data-anchor-id="rashi-dosha-application">11. RASHI DOSHA APPLICATION</h3>
+<p><strong>Key Point:</strong> Look at <strong>placement</strong> of dosha-carrying planet</p>
+<p><strong>Example:</strong> Mithuna lagna (Lakshmi dosha via Shukra) - Where is Venus placed? = Problematic area - Lordship also matters - Must check if planet is <strong>afflicted</strong> for bigger problems</p>
+<p><strong>Not all doom!</strong> Even afflicted placements in upachaya houses can give benefits.</p>
+<hr>
+<p><strong>Questions to explore:</strong> - Which dasha are you in now? - What specific area needs remedy? - Want to understand your chart’s specific dosha?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="36d7ce57" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-9.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-10-output-10.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-9" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-9">lesson 9</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Caution</span>Core Concept: Dig Bala (Directional Strength)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>What it is:</strong> Planets gain special strength when placed in specific houses (kendras) from the lagna. Behind each planet in dig bala is a devata (deity) blessing that position.</p>
+<p><strong>Key Principle:</strong> Dig bala is a <strong>kendra-based concept</strong> - planets gain this strength in the 1st, 4th, 7th, or 10th houses from lagna.</p>
+<section id="the-10-directions-deities" class="level2">
+<h2 class="anchored" data-anchor-id="the-10-directions-deities">The 10 Directions &amp; Deities</h2>
+<p>Each of the 9 grahas plus lagna has a specific dig bala position: - <strong>Surya</strong> (10th house) - Indra’s blessing: oversight, control, statesmanship - <strong>Chandra</strong> (4th house) - Vayu’s blessing: speed, pranayama knowledge - <strong>Mangal</strong> (10th house) - Yama’s blessing: knowledge of borders, longevity, dasha - <strong>Budha</strong> (1st house) - Kubera’s blessing: knowledge of wealth - <strong>Guru</strong> (1st house) - Ishana’s blessing: full knowledge, reasoning (viveka) - <strong>Shukra</strong> (4th house) - Agni’s blessing: vision, ability to envision - <strong>Shani</strong> (7th house) - Varuna’s blessing: carrying burdens, labor knowledge - <strong>Rahu</strong> (7th house) - Niriti’s blessing: understanding chaos and its removal - <strong>Ketu</strong> (10th house) - Ananta’s blessing: meditation, spiritual introspection - <strong>Lagna</strong> (vargottama) - Mritunjaya blessing: longevity</p>
+</section>
+<section id="how-dig-bala-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-dig-bala-works">How Dig Bala Works</h2>
+<p><strong>From Lagna:</strong> The devata gives <strong>knowledge</strong> to the person - this is a blessing that can be strengthened through remedies</p>
+<p><strong>From Arudha Lagna:</strong> Shows the <strong>physical direction</strong> where blessings manifest (useful for relocation advice)</p>
+</section>
+<section id="important-rules" class="level2">
+<h2 class="anchored" data-anchor-id="important-rules">Important Rules</h2>
+<ol type="1">
+<li><p><strong>Conjunctions:</strong> When a dig bala planet conjoins another planet, it <strong>spills the blessing</strong> onto that planet (like an expensive house raising the value of a neighboring cheap house)</p></li>
+<li><p><strong>Dispositor is Key:</strong> The dispositor can lock or unlock the blessing - check its condition first. If doing remedies, worship the dispositor first, then the dig bala planet.</p></li>
+<li><p><strong>Zero Dig Bala:</strong> Opposite placement shows <strong>lack of knowledge</strong> in houses ruled by that planet - the person may be capable but unable to apply themselves in those areas</p></li>
+<li><p><strong>Independent of Sign:</strong> Dig bala works regardless of whether the planet is exalted, debilitated, or in own sign - these are separate layers of analysis</p></li>
+</ol>
+</section>
+<section id="practical-applications" class="level2">
+<h2 class="anchored" data-anchor-id="practical-applications">Practical Applications</h2>
+<ul>
+<li>Use dig bala as a <strong>remedy tool</strong> - it’s a blessing that can be strengthened</li>
+<li>One strong benefit can lift an entire chart</li>
+<li>For malefics in kendras, we prefer them weak (unless they’re lagna lord or have dig bala blessing)</li>
+<li>Don’t do all remedies at once - address current dasha issues only</li>
+</ul>
+</section>
+<section id="examples-given" class="level2">
+<h2 class="anchored" data-anchor-id="examples-given">Examples Given</h2>
+<p><strong>Abraham Lincoln:</strong> Budha (lagna lord) in 1st house conjunct Surya - Kubera’s wealth blessing manifested through Surya’s statesmanship. Rahu-Mangal in 9th activated through war/law-making but ultimately led to his death (Rahu in marana karaka sthana defeated by Mangal).</p>
+<p>Would you like me to clarify any specific aspect of dig bala?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="5cdf31ba" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-11-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-10" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-10">lesson 10</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I’ll summarize this Vedic astrology lesson on Nakshatras. This is quite extensive, so let me break it into key sections:</p>
+<section id="core-concept-nakshatras-thought-creation" class="level2">
+<h2 class="anchored" data-anchor-id="core-concept-nakshatras-thought-creation">Core Concept: Nakshatras &amp; Thought Creation</h2>
+<ul>
+<li><strong>27/28 Nakshatras</strong> are the Moon’s mansions, above and outside the Rashi chart</li>
+<li>They represent <strong>thought creation</strong> - thoughts start in nakshatras, bubble up through divisional charts, and manifest in the Rashi chart</li>
+<li>After manifestation, they return to nakshatras as <strong>emotions</strong></li>
+</ul>
+</section>
+<section id="janma-nakshatra-birth-moons-nakshatra" class="level2">
+<h2 class="anchored" data-anchor-id="janma-nakshatra-birth-moons-nakshatra">Janma Nakshatra (Birth Moon’s Nakshatra)</h2>
+<p>The lord of your Janma Nakshatra shows your mental attitude:</p>
+<ul>
+<li><strong>Sun</strong>: Need to find a boss/God; work for others</li>
+<li><strong>Moon</strong>: Function best in family/gurukul settings</li>
+<li><strong>Mars</strong>: Prone to conflicts; must avoid them</li>
+<li><strong>Mercury</strong>: Difficulty finishing projects (Gandanta)</li>
+<li><strong>Jupiter</strong>: Seek knowledge, uphold tradition/dharma</li>
+<li><strong>Venus</strong>: Need purity/respect in relationships</li>
+<li><strong>Saturn</strong>: Break boundaries; good for innovation/research</li>
+<li><strong>Rahu</strong>: Face betrayal/disappointment; must stay honest</li>
+<li><strong>Ketu</strong>: Unsettled mind; need meditation (Gandanta)</li>
+</ul>
+</section>
+<section id="navtara-chakra-three-columns" class="level2">
+<h2 class="anchored" data-anchor-id="navtara-chakra-three-columns">Navtara Chakra (Three Columns)</h2>
+<ul>
+<li><strong>Buloka</strong> (1st column): Personal well-being, youth</li>
+<li><strong>Buvaloka</strong> (2nd column): Career, social life, adulthood</li>
+<li><strong>Svargaloka</strong> (3rd column): Spiritual matters, elder age</li>
+</ul>
+<p>Odd nakshatras (1st, 3rd, 5th, 7th) in first two columns are problematic; in spiritual column, challenges are beneficial.</p>
+</section>
+<section id="important-nakshatras-from-moon" class="level2">
+<h2 class="anchored" data-anchor-id="important-nakshatras-from-moon">Important Nakshatras from Moon</h2>
+<ul>
+<li><strong>10th Nakshatra</strong> (Karma): Shows career/action capacity; same lord as Janma</li>
+<li><strong>25th Nakshatra</strong> (Manas): The pillar - most critical mental support point</li>
+<li><strong>7th &amp; 22nd</strong>: Death/endings (Vadha)</li>
+</ul>
+</section>
+<section id="special-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="special-considerations">Special Considerations</h2>
+<ul>
+<li><strong>Shunya Nakshatra</strong>: Shows emptiness in certain rashis</li>
+<li><strong>Gandanta</strong>: Mercury (can’t finish) and Ketu (can’t start) create problems</li>
+<li><strong>Combustion by Sun</strong>: Cleansing through humiliation before improvement</li>
+<li><strong>Masa Nakshatra</strong>: Check Atmakaraka’s rashi to find problematic nakshatra lords</li>
+</ul>
+</section>
+<section id="key-teaching-points" class="level2">
+<h2 class="anchored" data-anchor-id="key-teaching-points">Key Teaching Points</h2>
+<ul>
+<li>Nakshatras show <strong>mental capacity</strong>, but Rashi chart shows <strong>manifestation</strong></li>
+<li>Both must support each other - genius without opportunity accomplishes nothing</li>
+<li>Use 27-nakshatra scheme for practical work; 28 for spiritual matters</li>
+<li>Check nakshatra lord’s placement in Rashi chart for full understanding</li>
+</ul>
+<p>Would you like me to elaborate on any specific section?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="3d1b2217" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-12-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-11" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-11">lesson 11</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I’ll create a comprehensive summary of this Vedic astrology lesson on Graha Drishti (planetary aspects). This is quite detailed, so let me break it into key sections:</p>
+<section id="lesson-11-graha-drishti-planetary-aspects---summary" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-11-graha-drishti-planetary-aspects---summary"><strong>Lesson 11: Graha Drishti (Planetary Aspects) - Summary</strong></h2>
+<section id="course-logistics" class="level3">
+<h3 class="anchored" data-anchor-id="course-logistics"><strong>Course Logistics</strong></h3>
+<ul>
+<li>Monthly webinars recorded and available within 24 hours</li>
+<li>2 years access to materials</li>
+<li>Telegram group for daily questions</li>
+<li>Daily practice: “Hare Rama Krishna” mantra (3 rounds of 108) upon waking</li>
+<li>Recommended software: Jagannatha Hora (free) or Shri Jyoti Star (paid)</li>
+</ul>
+</section>
+<section id="core-concepts-of-graha-drishti" class="level3">
+<h3 class="anchored" data-anchor-id="core-concepts-of-graha-drishti"><strong>Core Concepts of Graha Drishti</strong></h3>
+<p><strong>Definition:</strong> Graha drishti is planetary aspect - the ability of planets (movable bodies) to influence other bodies from certain positions. It represents: - Expression of desire (temporary, activated during dashas or through mantras) - Ability to influence based on position - What the planet is viewing/becoming aware of - What the planet prioritizes</p>
+</section>
+<section id="four-types-of-graha-drishti" class="level3">
+<h3 class="anchored" data-anchor-id="four-types-of-graha-drishti"><strong>Four Types of Graha Drishti</strong></h3>
+<p><strong>1. Outer Planets (have multiple aspects):</strong></p>
+<ul>
+<li><strong>Saturn - Upachaya/Growth Drishti:</strong> 3rd and 10th houses
+<ul>
+<li>Focus: Work, daily effort (parakrama)</li>
+<li>Makara lagna natives are workaholics, constantly discussing work</li>
+</ul></li>
+<li><strong>Jupiter - Trikona/Knowledge Drishti:</strong> 5th and 9th houses
+<ul>
+<li>Focus: Knowledge acquisition</li>
+<li>5th = new knowledge; 9th = past knowledge/education from guru</li>
+<li>Jupiter lagna natives prioritize learning above all</li>
+</ul></li>
+<li><strong>Mars - Raksha/Security Drishti:</strong> 4th and 8th houses
+<ul>
+<li>Focus: Protection and security</li>
+<li>4th = inner security (home, mother, protection)</li>
+<li>8th = outer security (external threats)</li>
+<li>Tests security by provoking/poking (like throwing stones at glass)</li>
+<li>Martial lagna natives can be defensive</li>
+</ul></li>
+</ul>
+<p><strong>2. Inner Planets (Kendra planets):</strong></p>
+<ul>
+<li><strong>Sun, Moon, Venus, Mercury - Purna/Full Drishti:</strong> 7th house only
+<ul>
+<li>Represents desire for that specific planet’s significations</li>
+<li>Sun: desire for self-expression</li>
+<li>Venus: desire for partnership/comfort</li>
+<li>Moon: sustenance</li>
+<li>Mercury: communication</li>
+</ul></li>
+</ul>
+<p><strong>3. Rahu - Kama Drishti:</strong> 2nd and 7th houses - Represents desire to possess, enjoy, consume</p>
+<p><strong>4. Ketu:</strong> Has no graha drishti (withdrawn nature)</p>
+</section>
+<section id="practical-applications-1" class="level3">
+<h3 class="anchored" data-anchor-id="practical-applications-1"><strong>Practical Applications</strong></h3>
+<p><strong>Using Raksha Drishti (4th &amp; 8th from lords):</strong></p>
+<ul>
+<li><strong>Marriage (from 7th lord):</strong>
+<ul>
+<li>4th from 7th lord = inner marriage issues (disharmony, lack of intimacy)</li>
+<li>8th from 7th lord = outer threats (affairs, third parties)</li>
+</ul></li>
+<li><strong>Work (from 10th lord):</strong>
+<ul>
+<li>4th from 10th lord = inner work issues (colleagues, internal problems)</li>
+<li>8th from 10th lord = job change, loss, looking elsewhere</li>
+</ul></li>
+<li><strong>Wealth (from 2nd lord):</strong>
+<ul>
+<li>4th from 2nd lord = protecting wealth internally</li>
+<li>8th from 2nd lord = external threats (taxes, theft)</li>
+</ul></li>
+</ul>
+<p><strong>Using Kriya Drishti (3rd &amp; 10th - Saturn’s aspects):</strong> - 3rd = new work/initiatives - 10th = old work/unresolved issues</p>
+<p><strong>Using Jnana Drishti (5th &amp; 9th - Jupiter’s aspects):</strong> - 5th = new knowledge/skills to learn - 9th = past knowledge/education/baggage - Afflicted 9th can mean stuck in perpetual education</p>
+</section>
+<section id="analysis-methods" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-methods"><strong>Analysis Methods</strong></h3>
+<p>Can analyze from three perspectives: 1. <strong>Bhava (house)</strong> - general/Kalapurusha chart 2. <strong>Bhava Lord</strong> - individual chart specifics 3. <strong>Karaka</strong> - natural significator</p>
+</section>
+<section id="atmakaraka-application" class="level3">
+<h3 class="anchored" data-anchor-id="atmakaraka-application"><strong>Atmakaraka Application</strong></h3>
+<p><strong>Permanent Nature:</strong> Shown by Atmakaraka’s purna drishti - Indicates soul’s highest priorities - Example: Jupiter as AK in 9th house prioritizes knowledge of 1st house (self, health, birth purpose) and 5th house (children, future, mantras)</p>
+<p><strong>Temporal Nature:</strong> Shown by Mahadasha lord’s purna drishti - Current life priorities during that period</p>
+</section>
+<section id="important-notes" class="level3">
+<h3 class="anchored" data-anchor-id="important-notes"><strong>Important Notes</strong></h3>
+<ul>
+<li>All planets have all aspects, but purna drishti shows HIGHEST priority</li>
+<li>Retrograde planets have 3x stronger desire/influence (Cheshtabala)</li>
+<li>Afflicted 9th house can indicate educational blocks preventing career progress</li>
+<li>For severe afflictions, only analyze purna drishti; for other analyses, may use partial aspects too</li>
+<li>Jupiter not natural leader because priorities are knowledge (5th/9th), not protection (4th/8th) or governance</li>
+</ul>
+</section>
+<section id="homework-assignment" class="level3">
+<h3 class="anchored" data-anchor-id="homework-assignment"><strong>Homework Assignment</strong></h3>
+<ol type="1">
+<li>Draw your chart and mark all houses your Atmakaraka has purna drishti on</li>
+<li>Apply this to 10 charts of people you know well</li>
+<li>Journal conclusions about what worked/didn’t work</li>
+</ol>
+<hr>
+<p>Would you like me to clarify any specific aspect of this lesson, or shall we explore how to apply these concepts to a chart?</p>
+</section>
+</section>
+</div>
+</div>
+</div>
+<div id="adc1f8e6" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-13-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-13-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-13-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-13-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-12" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-12">Lesson 12</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I’ll provide a comprehensive summary of this Vedic astrology lesson on Rashi Drishti (sign aspects). This is a detailed transcript, so I’ll break it into key sections:</p>
+<section id="core-concept-rashi-drishti-vs-graha-drishti" class="level2">
+<h2 class="anchored" data-anchor-id="core-concept-rashi-drishti-vs-graha-drishti">Core Concept: Rashi Drishti vs Graha Drishti</h2>
+<p><strong>Rashi Drishti</strong> is fundamentally different from Graha Drishti: - <strong>Graha Drishti</strong> = planetary desire to influence; changes with dashas/transits (temporary) - <strong>Rashi Drishti</strong> = permanent natural functioning; mutual sharing of information between signs; exists throughout time</p>
+<p>Key example: Mars in Mesha and Guru in Vrishika have mutual rashi drishti (knowledge sharing), but only Mars has graha drishti on Guru (8th aspect), not vice versa.</p>
+</section>
+<section id="three-types-of-rashi-drishti" class="level2">
+<h2 class="anchored" data-anchor-id="three-types-of-rashi-drishti">Three Types of Rashi Drishti</h2>
+<section id="abhimukha-drishti-face-to-face-100" class="level3">
+<h3 class="anchored" data-anchor-id="abhimukha-drishti-face-to-face-100">1. <strong>Abhimukha Drishti (Face-to-Face, 100%)</strong></h3>
+<ul>
+<li>Signs directly opposite each other</li>
+<li>Represents <strong>Vishnu tatva</strong> (sustenance)</li>
+<li>Mutual dependency for survival</li>
+<li>Examples:
+<ul>
+<li>Mesha-Vrishika: Body health depends on waste elimination</li>
+<li>Rishabha-Tula: Family needs partnership</li>
+<li>Mithuna-Dhanus: Contracts need knowledge (9th house)</li>
+<li>Karka-Makara: Heart rhythm-life cycle (rebirth)</li>
+</ul></li>
+</ul>
+<p><strong>Protection principle</strong>: Planets in abhimukha signs protect each other, especially the sign lord and exalted planet. Malefics in abhimukha can jeopardize sustenance.</p>
+</section>
+<section id="parshva-drishti-side-aspects-50" class="level3">
+<h3 class="anchored" data-anchor-id="parshva-drishti-side-aspects-50">2. <strong>Parshva Drishti (Side Aspects, 50%)</strong></h3>
+<p>Two types: - <strong>First Parshva</strong> (creation side) - <strong>Brahma tatva</strong> - <strong>Second Parshva</strong> (destruction side) - <strong>Rudra tatva</strong> (also called Badaka)</p>
+<p>For Mesha: Simha (creation), Vrishika (sustenance/abhimukha), Kumbha (destruction/badaka)</p>
+</section>
+<section id="badaka-obstacle-25" class="level3">
+<h3 class="anchored" data-anchor-id="badaka-obstacle-25">3. <strong>Badaka (Obstacle, 25%)</strong></h3>
+<p>The “destruction” parshva - represents overconfidence where we think we know but don’t.</p>
+<p><strong>Badaka rules</strong>: - <strong>Chara (movable) signs</strong>: 11th house is badaka - <strong>Sthira (fixed) signs</strong>: 9th house is badaka<br>
+- <strong>Dvisvabhava (dual) signs</strong>: 7th house is badaka</p>
+<p>The badaka moves in 3-step pattern opposite to Vishnu’s movement through signs.</p>
+</section>
+</section>
+<section id="samukha-drishti-opposite-signs" class="level2">
+<h2 class="anchored" data-anchor-id="samukha-drishti-opposite-signs">Samukha Drishti (Opposite Signs)</h2>
+<p>Signs 180° apart represent the same quality with different manifestations - two sides of one coin. You can only choose one side: - Mesha-Vrishika (Mars): Warrior vs spiritual/occult - Rishabha-Tula: Family establishment vs wandering - Mithuna-Dhanus: Worldly involvement vs sannyasa</p>
+</section>
+<section id="practical-application-method" class="level2">
+<h2 class="anchored" data-anchor-id="practical-application-method">Practical Application Method</h2>
+<p>When analyzing any rashi, examine <strong>four positions</strong>: 1. The rashi itself 2. Its creation source (first parshva) 3. Its sustenance (abhimukha) 4. Its destruction/obstacles (badaka)</p>
+<p>Check both from: - <strong>Lagna</strong> (intellectual ability) - <strong>Lagna lord placement</strong> (practical application ability)</p>
+</section>
+<section id="chart-examples-analyzed" class="level2">
+<h2 class="anchored" data-anchor-id="chart-examples-analyzed">Chart Examples Analyzed</h2>
+<p><strong>Srila Prabhupada</strong> (Dhanus lagna): - Abhimukha = Mithuna (7th house challenge: samsara vs sannyasa) – ** this is incorrec i think it is samukha rashi ** - From lagna lord (Guru in 9th/Simha): Abhimukha is Makara (2nd) with exalted Shani - successfully faced challenge, established family then took sannyasa - Parshva knowledge: Meena (4th house purity/bhakti) - Applied through exalted Shani - uplifted drug users/hippies to vegetarianism and Krishna consciousness</p>
+<p><strong>Kurt Cobain</strong> (Simha lagna): - Abhimukha = Makara (6th) with Shani-Venus (desires/vices problem) - Knowledge source (Tula) lords over badaka - created own blockages - Fame he couldn’t handle, led to suicide</p>
+</section>
+<section id="important-technical-points" class="level2">
+<h2 class="anchored" data-anchor-id="important-technical-points">Important Technical Points</h2>
+<ul>
+<li>Planets in badaka can be blessing (if benefic) or curse (if malefic)</li>
+<li>Guru in badaka doesn’t mean no guru if benefic</li>
+<li>Lords and exalted planets of signs are “blind protectors”</li>
+<li>Retrograde planets in protective positions add stubbornness to protection</li>
+<li>Debilitated planets in protective positions cannot protect properly</li>
+<li>Marana karaka sthana creates additional problems in badaka</li>
+</ul>
+</section>
+<section id="sign-dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="sign-dependencies">Sign Dependencies</h2>
+<p>The transcript lists which planets protect which signs (lord + exalted planet for each).</p>
+<p>Would you like me to elaborate on any specific section?</p>
+</section>
+</div>
+</div>
+</div>
+<div id="d2d99ed7" class="cell">
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-3.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-4.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-5.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-6.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-7.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-8.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="1_pjc_files/figure-html/cell-14-output-9.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="lesson-13" class="level2">
+<h2 class="anchored" data-anchor-id="lesson-13">Lesson 13</h2>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>I’ll provide a comprehensive summary of this Jyotish (Vedic astrology) lesson on Bhavas (houses):</p>
+<section id="core-concepts" class="level2">
+<h2 class="anchored" data-anchor-id="core-concepts">Core Concepts</h2>
+<p><strong>Bhava Definition</strong> - Bhavas are not static areas of life but dynamic states of mind, attitudes, sentiments, and experiences - They grow and expand based on knowledge and awareness - Three ways to define bhavas: Narayana (rashi-based), Bhava Chakra (degree-based), and Bhava Chalita Chakra</p>
+<p><strong>Bhava Names</strong> The 12 houses have specific Sanskrit names that reveal their significance: Lagna, Dhana, Sahaja, Sukha, Putra, Ari, Yuvati, Randhra, Dharma, Karma, Labha, Vyaya</p>
+</section>
+<section id="bhava-groups-and-underlying-principles" class="level2">
+<h2 class="anchored" data-anchor-id="bhava-groups-and-underlying-principles">Bhava Groups and Underlying Principles</h2>
+<p><strong>Kendras (1st, 4th, 7th, 10th)</strong> - Vishnu/Moon concept - Most important houses - the four pillars of life - Visualized as a four-petal lotus - Only houses we have direct access to - 1st &amp; 7th: High tide (high emotions) - birth/coming and going/journey - 4th &amp; 10th: Low tide (rest/relaxation) - home and work - Planets in kendras cooperate and support each other</p>
+<p><strong>Konas (5th, 9th)</strong> - Lakshmi/Shiva concept - Resources and knowledge that sustain life - Represent prosperity and dharma - 5th house: Future, mantra, prayers, visualization, children - 9th house: Past, guru knowledge, father, lineage, dharma - When bhava lords are placed in konas, they show what you pray for or admire</p>
+<p><strong>Dusthanas (6th, 8th, 12th)</strong> - Shani/Saturn concept - Represent sorrow, sin, and karmic debts - Planets here have “taxes” to pay - 6th house: Weaknesses (shadripu), temptations, lifestyle choices, celibacy - FREE WILL - 8th house: Past sins (rina), karmic debts, unseen diseases - NO FREE WILL - 12th house: Losses, foreign residence, blame</p>
+<p><strong>Upachaya Houses (3rd, 6th, 10th, 11th)</strong> - Free will houses - Have potential to grow and develop - Lagna lord in 3rd/6th: Manta Yoga (extreme intelligence) - Lagna lord in 10th/11th: Siddha Yoga (huge achievements) - 3rd: Choice of weapon/expression - 6th: Dealing with enemies/temptations - 10th: Keeping promises, work - 11th: Gains - what you’re willing to accept/take</p>
+<p><strong>Trikona (3rd, 6th, 11th)</strong> - Brahma houses - Contribute to our creation - 3rd &amp; 6th: Creation part - 11th: Delivery part - Related to Rahu (cause of birth) - 6th house: Body creation (with Brahma) - 12th house: Mind creation (with Saraswati)</p>
+</section>
+<section id="practical-examples" class="level2">
+<h2 class="anchored" data-anchor-id="practical-examples">Practical Examples</h2>
+<p><strong>Travel &amp; Foreign Residence</strong> - 7th house: Journey and movement (not residence) - 10th house: Away from home - 12th house: Foreign residence/settlement - 3rd house: Short-term travel - 9th house: Freedom to travel (visa/permits)</p>
+<p><strong>Children</strong> - Male chart: 5th house for progeny - Female chart: 9th house for progeny, conception, pregnancy</p>
+<p><strong>Judgment of Bhavas</strong> - Benefic planets in a house bring happiness (sukha) - If bhava lord is in kendra/kona from lagna, that bhava is empowered - Example: 6th lord in kendras strengthens celibacy, can delay marriage</p>
+<p><strong>Lord Placement</strong> - From lagna: Shows our experience of that bhava - From the bhava itself: Shows resources available to that bhava - In kendra: God-given, accessible - In kona: Need to pray for it, seek knowledge - In dusthana: Sin/sorrow attached</p>
+</section>
+<section id="key-teachings" class="level2">
+<h2 class="anchored" data-anchor-id="key-teachings">Key Teachings</h2>
+<ul>
+<li>Increasing knowledge of bhavas changes their quality</li>
+<li>Each bhava has multiple names revealing different aspects</li>
+<li>Mantras (5th house) include all mental repetitions, not just Sanskrit prayers</li>
+<li>Your mantra is your best friend or worst enemy</li>
+<li>Malefics in houses show specific challenges related to that house’s significations</li>
+</ul>
+<p>The lesson emphasized understanding WHY classical texts say what they do, not just memorizing combinations.</p>
+</section>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/prashanthnayak\.github\.io\/myblog");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/prashanthnayak/myblog/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
